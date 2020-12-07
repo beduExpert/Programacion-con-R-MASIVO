@@ -26,6 +26,6 @@ Se estudian conceptos básicos de estadística para contextualizar al alumno y s
 - [Reto 2: Características de los datos](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Reto-02) 
 - [Reto 3: Lectura de datos y usos de `dplyr`](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Reto-03) 
 
-#### Postwork
+## Postwork
 
 - [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Postwork)

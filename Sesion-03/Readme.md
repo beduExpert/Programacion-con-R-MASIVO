@@ -25,7 +25,7 @@ Conocer mejor el conjunto de datos con el que se esté trabajando,
 - [Reto 2: Altura de los alumnos](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Reto-02)
 - [Reto 3: Estádisticos de la NBA](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Reto-03)
 
-#### Postwork de la sesión
+## Postwork de la sesión
 
 - [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Postwork)
 

@@ -30,7 +30,7 @@ Identificar las nociones básicas para poder manipular DataSets, poder realizar 
 
 ![imagen1](imagenes/reto.jpg)
 
-#### Postwork de la sesión
+## Postwork de la sesión
 
 - [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-01/Postwork)
 

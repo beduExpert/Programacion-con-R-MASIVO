@@ -23,6 +23,6 @@ Estudiar algunas distribuciones de probabilidad muy comunes y útiles, obtener e
 - [Reto 2: Algunos estimadores puntuales insesgados comunes](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Reto-02) 
 - [Reto 3: Contraste de hipótesis](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Reto-03) 
 
-#### Postwork
+## Postwork
 
 - [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Postwork)
