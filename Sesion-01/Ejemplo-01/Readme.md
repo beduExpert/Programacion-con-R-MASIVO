@@ -22,14 +22,14 @@ var.logical <- T
 vector <- c(1,2)
 ```
 
-Ahora con el comando `class()` veremos la tipología de las variables
+Ahora con la función `class` veremos la tipología de las variables
 ```R
 class(var.number)
 class(var.hola)
 class(var.double)
 class(var.logical)
 ```
-Observa que diferencia hay entre `class()` y `typeof()` 
+Observa que diferencia hay entre `class` y `typeof` 
 ```R
 class(vector)
 typeof(var.number)
@@ -48,7 +48,7 @@ length(a)
 length(b)
 ```
 
-Se puede acceder a las coordenadas de un vector haciendo uso de [] y su posición
+Se puede acceder a las coordenadas de un vector haciendo uso de `[]` y su posición
 ```R
 a[1]
 b[4]
@@ -59,7 +59,7 @@ Para unir 2 vectores
 c(a,b)
 ```
 
-Organizarlos con el comando sort(), cambia la F por T y observa que ocurre
+Organizarlos con la función `sort`, cambia la `F` por `T` y observa que ocurre
 ```R
 sort( c(a,b), decreasing = F)
 ```
