@@ -1,23 +1,23 @@
 #      EJEMPLO 2. Matrices
 
-# OBJETIVO
+# Objetivo
 
 - Crear nuevas matrices
 - Extraer datos dentro de una matriz
 - Calcular sus dimensiones
 - Realizar operaciones básicas entre matrices
 
-# REQUISITOS
+# Requisitos
 
 1. Tener instalados R y RStudio
 2. Haber estudiado el Prework
 
-# DESARROLLO
+# Desarrollo
 
 Se debe seguir el código propuesto y tratar de comprender que es lo que realiza
 
 
-##### Crear Matrices. 
+##### Crear matrices. 
 ```R
 (m <- matrix(1:9, nrow = 3, ncol = 3))
 ```
