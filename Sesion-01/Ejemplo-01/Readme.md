@@ -14,12 +14,12 @@
 Se tiene una serie de códigos los cuales deberán irse corriento línea a línea, recordar que siempre se ejecuta una línea presionando **Ctrl + Enter**
 
 Primero vamos a crear algunas variables de diferentes tipos: 
-``` R
-var.hola <- "Hola Mundo"
-var.number <- 5
-var.double <- 2.7076
-var.logical <- T
-vector <- c(1,2)
+```R
+(var.hola <- "Hola Mundo")
+(var.number <- 5L)
+(var.double <- 2.7076)
+(var.logical <- T)
+(vector <- c(1,2))
 ```
 
 Ahora con la función `class` veremos la tipología de las variables
@@ -31,8 +31,8 @@ class(var.logical)
 ```
 Observa que diferencia hay entre `class` y `typeof` 
 ```R
-class(vector)
-typeof(var.number)
+class(var.logical)
+typeof(var.logical)
 ``` 
 
 En este paso vamos a crear vectores, siempre serán de la forma `c(elem1, elem2, ...)`
@@ -61,11 +61,11 @@ c(a,b)
 
 Organizarlos con la función `sort`, cambia la `F` por `T` y observa que ocurre
 ```R
-sort( c(a,b), decreasing = F)
+sort(c(a,b), decreasing = F)
 ```
 Otra forma de generar el vector es de la siguiente manera, utilizando ":"
 ```R
-3:12  #así de sencillo es
+3:12  # así de sencillo es
 ```
 
 Intenta los siguientes y prueba con otras que se te vengan a la imaginación
@@ -77,11 +77,8 @@ Intenta los siguientes y prueba con otras que se te vengan a la imaginación
 
 También se pueden generar vectores que no sean sucesivos con la función `seq`, intenta cambiar el valor de los argumentos y observa el comportamiento de los vectores
 ```R
-vector.by2 <- seq(from = 1, to = 10, by =2)
-vector.by2
-
-vector.by3 <- seq(1, 10, 3)
-vector.by3
+(vector.by2 <- seq(from = 1, to = 10, by =2))
+(vector.by3 <- seq(1, 10, 3))
 ```
 Para repetir un número o un vector un determinado número de ocasiones utilizamos `rep`
 ```R
