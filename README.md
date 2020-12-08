@@ -4,7 +4,7 @@
 
  - Aprender a programar y a hacer data analysis  en `R` con el fin de obtener información más confiable para la toma decisiones importantes en las organizaciones.
 
-## ORGANIZACIÓN DE MÓDULO 
+## ORGANIZACIÓN DEL MÓDULO 
  
  - [Sesión 1: Introducción a R y Software ](Sesion-01/Readme.md) 
  - [Sesión 2: Programación y manipulación de datos en R ](Sesion-02/Readme.md) 
