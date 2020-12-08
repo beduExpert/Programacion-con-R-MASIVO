@@ -2,7 +2,7 @@
 
 ## OBJETIVO 
 
- - Aprender a programar en R para hacer data analysis con el fin de obtener información más confiable para la toma decisiones importantes en las organizaciones.
+ - Aprender a programar y a hacer data analysis  en `R` con el fin de obtener información más confiable para la toma decisiones importantes en las organizaciones.
 
 ## ORGANIZACIÓN DE MÓDULO 
  
