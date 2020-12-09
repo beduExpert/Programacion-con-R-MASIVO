@@ -1,4 +1,4 @@
-# EJEMPLO 6. Loops y pseudocódigo: for, if-else
+# EJEMPLO 6. Loops y pseudocódigo: for, while, if, else, if-else
 
 # Objetivo
 - Conocer la inicialización de variables 
