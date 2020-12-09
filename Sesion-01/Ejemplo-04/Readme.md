@@ -1,19 +1,18 @@
+# EJEMPLO 4. Descarga y lectura de data sets.
 
-# Ejemplo 4. Descarga y lectura de DataSets.
-
-## Objetivo
+# Objetivo
 - Fijar y conocer ruta de trabajo
 - Lectura de ficheros CSV, locales y en repositorio
 - Manejo de objetos
 
-## Requisitos
+# Requisitos
 1. R, RStudio
 2. Prework
 
-## Desarrollo
+# Desarrollo
 Ejecutar las líneas de comando y tratar de comprender que realiza cada parte de sus entradas
 #### Se pueden obtener diversos data sets de Kaggle, visita el sitio para que te familiarices
-#### La siguiente es ua base de datos de los libros más vendidos en Amazon del 2009 - 2019
+#### La siguiente es una base de datos de los libros más vendidos en Amazon del 2009 - 2019
 
 Obtenemos la ruta del directorio de trabajo
 ```R
@@ -23,12 +22,12 @@ Fijando el directorio de trabajo
 ```R
 setwd("c:/Users/User/Documents/Bedu/")
 ```
-El comando read.csv() será util para leer fichero .csv
+La función `read.csv` será util para leer fichero .csv
 ```R
 read.csv("../Bedu/Data/bestsellers with categories.csv")
 ```
 se puede asignar a un objeto el fichero leido anteriormente
-```RR
+```R
 amazon.books <- read.csv("../Bedu/Data/bestsellers with categories.csv")
 ```
 También se puede leer el fichero directamente desde una URL
