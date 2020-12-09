@@ -1,15 +1,15 @@
-# Ejemplo 6. Loops y pseudocódigo: For, if-else
+# EJEMPLO 6. Loops y pseudocódigo: for, if-else
 
-## Objetivo
+# Objetivo
 - Conocer la inicialización de variables 
-- Ejecutar un loop, while, if y if-else
+- Ejecutar un loop, for, while, if y if-else
 
-## Requisitos
+# Requisitos
 1. R, RStudio
 2. Prework 
 
-## Desarrollo
-Durante este ejemplo se darán las bases para inicializar una variable que sea utilizada dentro de un loop, adicionalmente se utilizaran los comando while, if y if-else para poder utilizarlos adecuadamente
+# Desarrollo
+Durante este ejemplo se darán las bases para inicializar una variable que sea utilizada dentro de un loop, adicionalmente se utilizaran los comandos while, if y if-else para poder utilizarlos adecuadamente
 
 Este ejemplo elevará al cuadrado las primeros 10 entradas de un vector generado aleatóriamente de 20 entradas 
 ```R
