@@ -11,7 +11,7 @@
 # Desarrollo
 Durante este ejemplo se darán las bases para inicializar una variable que sea utilizada dentro de un loop, adicionalmente se utilizaran los comandos while, if y if-else para poder utilizarlos adecuadamente
 
-Este ejemplo elevará al cuadrado las primeros 10 entradas de un vector generado aleatóriamente de 20 entradas 
+Este ejemplo elevará al cuadrado las primeras 10 entradas de un vector generado aleatóriamente de 20 entradas 
 ```R
 w <- rnorm(20)              
 print("Este loop calcula el cuadrado de los 10 primeros elementos del vector w")
