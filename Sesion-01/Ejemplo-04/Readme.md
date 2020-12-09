@@ -20,19 +20,21 @@ getwd()
 ```
 Fijando el directorio de trabajo
 ```R
-setwd("c:/Users/User/Documents/Bedu/")
+setwd("c:/Users/User/Documents/Bedu/") # Depende del usuario
 ```
 La función `read.csv` será util para leer fichero .csv
 ```R
-read.csv("../Bedu/Data/bestsellers with categories.csv")
+read.csv("bestsellers with categories.csv") # El archivo csv debe estar en el directorio de trabajo
 ```
 se puede asignar a un objeto el fichero leido anteriormente
 ```R
-amazon.books <- read.csv("../Bedu/Data/bestsellers with categories.csv")
+amazon.books <- read.csv("bestsellers with categories.csv")
+tail(amazon.books); str(amazon.books)
 ```
 También se puede leer el fichero directamente desde una URL
 ```R
-amazon.books.url <- read.csv("https://github.com/ecoronadoj/Sesion_1/blob/main/Data/bestsellers%20with%20categories.csv")
+data.url <- read.csv("https://www.football-data.co.uk/mmz4281/2021/SP1.csv")
+tail(data.url); str(data.url)
 ```
 Calculamos la dimensión de la base de datos
 ```R
