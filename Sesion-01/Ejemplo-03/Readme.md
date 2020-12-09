@@ -1,24 +1,24 @@
 # Ejemplo 3. Listas y data frames
 
-### OBJETIVO
+# Objetivo
 
-- Generar listas
-- Extraer información de estas
+- Crear listas y data frames
+- Extraer información de estos
 - Cálculo de estadísticos básicos
 
-#### REQUISITOS
+# Requisitos
 
 1. Prework
 2. R, RStudio
 3. Ejemplos 1 y 2
 
-#### DESARROLLO
+# Desarrollo
 
 Seguir el contenido y tratar de comprender el código mostrado a continuación
 
 #### Listas 
 ```R
-milista <- list(nombre = "Pepe", no.hijos = 3, edades.hijos = c(4, 7, 9))
+(milista <- list(nombre = "Pepe", no.hijos = 3, edades.hijos = c(4, 7, 9)))
 ```
 
 #propiedades de la lista
@@ -34,8 +34,7 @@ Creando data frames
 ```R
 x <- 6:8
 y <- c("A", "B", "C")
-mifile <- data.frame(edad = x, grupo = y)
-mifile
+(mifile <- data.frame(edad = x, grupo = y))
 
 str(mifile)
 ```
@@ -51,12 +50,12 @@ Calculando algunos estadísticos básicos
 mean(mifile$edad)
 ```
 
-Podemos hacer uso de la función paste() para agregar un mensaje
+Podemos hacer uso de la función `paste` para agregar un mensaje
 ```R
 paste("La media de la edad es:", mean(mifile$edad))
 ```
 
-Podemos inspeccionar a detalle el df utilizando summary()
+Podemos inspeccionar a detalle el df utilizando `summary`
 ```R
 summary(mifile)
 ```
