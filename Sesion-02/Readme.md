@@ -1,4 +1,4 @@
-# Sesion 2. Manipulación de datos en R
+# Sesion 2. Manipulación de datos en `R`
 
 Se estudian conceptos básicos de estadística para contextualizar al alumno y sentar las bases de la estructura del curso. Se proporcionan algunas herramientas básicas y muy útiles en la práctica para que el alumno pueda importar datos a `R` desde diferentes tipos de archivos, con estos datos en `R`, podrá filtrar filas, seleccionar variables, transformar variables y en general manipular los datos para llevarlos a una forma deseada.
 
