@@ -12,20 +12,20 @@ Se estudian conceptos básicos de estadística para contextualizar al alumno y s
 
 #### Los ejemplos de esta sesión 2 son los siguientes:
 
-- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Ejemplo-01) Medidas de tendencia central, de posición y de dispersión
-- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Ejemplo-02) Características de los objetos (`str`, `summary`, `head` y `View`)
-- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Ejemplo-03) Paquete `dplyr` y aplicaciones
-- [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Ejemplo-04) Funciones `cbind`, `rbind` (manipulación de data frames)
-- [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Ejemplo-05) Funciones `apply`, `lapply` y `do.call`
-- [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Ejemplo-06) Lectura de JSON y XML
-- [Ejemplo 7](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Ejemplo-07) Funciones `na.omit` y `complete.cases`
+- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-01) Medidas de tendencia central, de posición y de dispersión
+- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-02) Características de los objetos (`str`, `summary`, `head` y `View`)
+- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-03) Paquete `dplyr` y aplicaciones
+- [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-04) Funciones `cbind`, `rbind` (manipulación de data frames)
+- [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-05) Funciones `apply`, `lapply` y `do.call`
+- [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-06) Lectura de JSON y XML
+- [Ejemplo 7](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-07) Funciones `na.omit` y `complete.cases`
 
 #### Retos de la sesión 2
 
-- [Reto 1: Medidas de tendencia central](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Reto-01) 
-- [Reto 2: Características de los datos](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Reto-02) 
-- [Reto 3: Lectura de datos y usos de `dplyr`](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Reto-03) 
+- [Reto 1: Medidas de tendencia central](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-01) 
+- [Reto 2: Características de los datos](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-02) 
+- [Reto 3: Lectura de datos y usos de `dplyr`](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-03) 
 
 ## Postwork
 
-- [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-02/Postwork)
+- [Postwork](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Postwork)
