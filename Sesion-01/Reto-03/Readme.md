@@ -18,7 +18,7 @@ Utiliza el data frame de ventas de libros por Amazon y realiza las siguientes ac
 
 2. Calcula el data frame transpuesto, asígnale el nombre de tAmazon y conviértelo en un data frame
 
-3. Asigna los nombres de las columnas como el nombre de los libros
+3. Usa el nombre de los libros como el nombre de las columnas
 
 4. ¿Cúal es el libro de menor y mayor precio?
 ```
