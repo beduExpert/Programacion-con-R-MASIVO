@@ -1,13 +1,12 @@
+# Reto 1. Lectura y escritura de datos 
 
-## Reto 1. Lectura y escritura de datos 
-
-## Objetivo
+# Objetivo
 Reforzar la lectura de ficheros CSV y la escritura de variables resultado en un nuevo fichero CSV, de este modo será fácil su lectura en otros lenguajes o plataformas.
 
-## Requisitos
+# Requisitos
 Haber realizado el prework, además de haber realizado los ejemplos de la sesión.
 
-## Desarrollo
+# Desarrollo
 Abre el fichero que se encuentra en el repositorio y obten sus carácteristicas, para finalmente imprimir los resultados en un fichero CSV.
 
 ```R
