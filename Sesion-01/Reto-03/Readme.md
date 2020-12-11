@@ -1,17 +1,16 @@
-## Reto 3. Operaciones con data frames
+# Reto 3. Operaciones con data frames
 
-### OBJETIVO 
+# Objetivo
 
 - Realizar operaciones con data frames, para extracción de información relevante 
 
-#### REQUISITOS 
+# Requisitos
 
 Haber cumplido con los retos anteriores. Documentarse con el preweork 
 
-#### DESARROLLO
+# Desarrollo
 
 Realizar la lectura de los datos y seguir las instruccines que se muestran a continuación.
-
 
 Utiliza el data frame de ventas de libros por Amazon y realiza las siguientes actividades:
 ```R
