@@ -1,4 +1,4 @@
-# Postwork: Manipulación de datos en `R`
+# Postwork Sesión 2.
 
 # Objetivo
 
