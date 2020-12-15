@@ -1,15 +1,15 @@
 # EJEMPLO 2. Características de los objetos (`str`, `summary`, `head` y `View`)
 
-# Objetivo
+#### Objetivo
 
 - Conocer mejor conjuntos de datos guardados como data frames en `R` de una forma rápida, mediante algunas funciones útiles y de uso común.
 
-# Requisitos
+#### Requisitos
 
 - Haber instalado previamente R y RStudio 
 - Saber interpretar las medidas de tendencia central y de posición
 
-# Desarrollo
+#### Desarrollo
 
 #### Función `str`
 
