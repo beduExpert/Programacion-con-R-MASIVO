@@ -23,7 +23,7 @@ library(XML)
 Podemos leer un archivo json de la siguiente manera
 
 ```R
-URL1 <- "http://www.ipab.org.mx/ipab/datosabiertos?od=02-21"
+URL1 <- "https://tools.learningcontainer.com/sample-json-file.json"
 JsonData <- fromJSON(file = URL1)
 class(JsonData)
 length(JsonData)
@@ -35,7 +35,7 @@ str(JsonData)
 Podemos leer un archivo xml de la siguiente manera
 
 ```R
-URL2 <- "http://www.ipab.org.mx/ipab/datosabiertos?od=03-21"
+URL2 <- "http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/xml/cd_catalog.xml"
 xmlfile <- xmlTreeParse(URL2) # Parse the XML file. Analizando el XML
 topxml <- xmlSApply(xmlfile, function(x) xmlSApply(x, xmlValue)) # Mostrando los datos de una forma amigable
 xml_df <- data.frame(t(topxml), row.names= NULL) # Colocandolos en un Data Frame
