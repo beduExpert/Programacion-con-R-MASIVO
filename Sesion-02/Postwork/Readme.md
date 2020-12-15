@@ -1,17 +1,17 @@
 # Postwork Sesión 2.
 
-# Objetivo
+#### Objetivo
 
 - Importar múltiples archivos csv a `R`
 - Observar algunas características y manipular los data frames
 - Combinar múltiples data frames en un único data frame
 
-# Requisitos
+#### Requisitos
 
 1. Tener instalado R y RStudio
 2. Haber realizado el prework y estudiado los ejemplos de la sesión.
 
-# Desarrollo
+#### Desarrollo
 
 Ahora vamos a generar un cúmulo de datos mayor al que se tenía, esta es una situación habitual que se puede presentar para complementar un análisis, siempre es importante estar revisando las características o tipos de datos que tenemos, por si es necesario realizar alguna transformación en las variables y poder hacer operaciones aritméticas si es el caso, además de sólo tener presente algunas de las variables, no siempre se requiere el uso de todas para ciertos procesamientos.
 
