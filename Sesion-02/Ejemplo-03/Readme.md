@@ -10,7 +10,7 @@
 
 # Desarrollo
 
-El paquete **dplyr** cuenta con varias funciones muy útiles para manipular y transformar data frames. Una vez instalado el paquete `dplyr`, puede cargarlo en `R` de la siguiente manera (sin mensajes ni advertencias)
+El paquete `dplyr` cuenta con varias funciones muy útiles para manipular y transformar data frames. Una vez instalado el paquete `dplyr`, puede cargarlo en `R` de la siguiente manera (sin mensajes ni advertencias)
 
 ```R
 suppressMessages(suppressWarnings(library(dplyr)))
