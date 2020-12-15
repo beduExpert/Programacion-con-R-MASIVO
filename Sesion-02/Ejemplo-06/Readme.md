@@ -1,4 +1,4 @@
-# Ejemplo 6. Lectura de JSON y XML
+# EJEMPLO 6. Lectura de JSON y XML
 
 #### Objetivo
 
