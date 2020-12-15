@@ -1,17 +1,17 @@
 # EJEMPLO 5. Funciones `apply`, `lapply` y `do.call`
 
-# Objetivo
+#### Objetivo
 
 - Realizar operaciones por filas o columnas en un arreglo
 - Aplicar funciones a elementos de vectores o listas y obtener una lista con los resultados
 - Combinar múltiples data frames en un único data frame con la ayuda de funciones de una manera fácil y rápida
 
-# Requisitos
+#### Requisitos
 
 - Conocer lo básico sobre vectores, matrices y data frames
 - Saber obtener una comprensión de data frames de una manera fácil y rápida con ayuda de funciones como `str` y `head`
 
-# Desarrollo
+#### Desarrollo
 
 #### Función `apply`
 
