@@ -1,16 +1,16 @@
 # EJEMPLO 1. Medidas de tendencia central, de posición y de dispersión
 
-# Objetivo
+#### Objetivo
 
 - Aprender a calcular medidas de tendencia central, de posición y de dispersión para conjuntos de datos, con ayuda de funciones de `R`.
 - Interpretar los resultados obtenidos
 
-# Requisitos
+#### Requisitos
 
 - Tener previamente instalados R y RStudio
 - Haber leido y comprendido el Prework
 
-# Desarrollo
+#### Desarrollo
 
 #### Medidas de tendencia central
 
