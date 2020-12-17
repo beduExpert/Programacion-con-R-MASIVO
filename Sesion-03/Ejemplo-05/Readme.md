@@ -76,7 +76,7 @@ dir()  # observemos que se creo en la ruta deseada
 # install.packages("ggplot2")
 # install.packages("scales")
 
-library(dplyr)
+# library(dplyr)
 library(ggplot2)
 library(scales)
 ```
