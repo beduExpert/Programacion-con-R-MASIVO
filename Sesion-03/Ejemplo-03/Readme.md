@@ -30,7 +30,7 @@ Vamos a realizar un cambio en la variable `Mediciones` para practicar
 data <- mutate(data2, Mediciones = Mediciones*1.23)
 head(data)
 ```
-Observamos algunos datos estádisticos sobre las variables
+Observamos algunos datos estadísticos sobre las variables
 ```R
 summary(data)
 ```
