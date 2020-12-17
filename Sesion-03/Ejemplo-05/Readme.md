@@ -145,11 +145,10 @@ p <- p +
   annotate("text", x = mex$Date[round(dim(mex)[1]*0.4)], y = max(mex$NI), colour = "blue", size = 5, 
            label = paste("Última actualización: ", mex$NI[length(mex$NI)]))
 p
-
+```
 
 
 - Muertes Acumuladas
-
 ```R
 mexm <- subset(mex, Muertos > 0) # Tomamos el subconjunto desde que comenzaron las muertes
 
