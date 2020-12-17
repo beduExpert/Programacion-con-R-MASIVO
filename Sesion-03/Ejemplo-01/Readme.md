@@ -15,7 +15,7 @@
 Comenzando con gráficos simples; vamos a utilizar el dataset `mtcars`. 
 
 
-Instalamos el packages (si es necesario) y lo cargamos
+Instalamos el paquete (si es necesario) y lo cargamos
 ```R 
 library(ggplot2)
 ```
