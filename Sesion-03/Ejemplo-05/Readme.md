@@ -176,7 +176,7 @@ p
 - Muertes por Día
 ```R
 p <- ggplot(mexm, aes(x=Date, y=NM)) + 
-  geom_bar(stat = "identity") + 
+  geom_line(stat = "identity") + 
   labs(x = "Fecha", y = "Número de nuevos decesos",
        title = paste("Nuevos decesos por COVID-19 en México:", 
                      format(Sys.time(), tz="America/Mexico_City",usetz=TRUE))) +
