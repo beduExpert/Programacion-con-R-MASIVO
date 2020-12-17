@@ -47,7 +47,6 @@ ggplot(mtcars, aes(x=cyl, y = hp, colour = mpg )) +
   theme_gray() +   # Temas (inteta cambiarlo)
   facet_wrap("cyl") +  # Lo divide por el núm de cilindros
   xlab('Núm Acilindros')+  # Nombre en los ejes
-  ```Rylab('Caba
-  llos de Fuerza')
+  ylab('Caballos de Fuerza')
 ```
 Adicionalmente se pueden realizar otros tipos de gráficos, estos se verán en los próximos ejemplos.
