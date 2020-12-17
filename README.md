@@ -2,7 +2,7 @@
 
 ## OBJETIVO 
 
- - Aprender a programar y a hacer data analysis  en `R` con el fin de obtener información más confiable para la toma decisiones importantes en las organizaciones.
+ - Realizar tareas de limpieza, manipulación y análisis de bases de datos utilizando el lenguaje de programación R, para después poder crear visualizaciones, predicciones y modelaje matemático, que permitirán transformar datos en información para mejorar la toma decisiones en las organizaciones. 
 
 ## ORGANIZACIÓN DEL MÓDULO 
  
