@@ -25,7 +25,7 @@ head(data2)
 names(data2)
 ```
 
-Vamos a reliazar un cambio en la variable `Mediciones` para practicar 
+Vamos a realizar un cambio en la variable `Mediciones` para practicar 
 ```R
 data <- mutate(data2, Mediciones = Mediciones*1.23)
 head(data)
