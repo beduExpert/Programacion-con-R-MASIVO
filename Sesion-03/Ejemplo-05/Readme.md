@@ -264,5 +264,5 @@ p <- p  + scale_x_date(labels = date_format("%d-%m-%Y"))
 p <- p +
   annotate("text", x = mex$Date[round(length(mex$Date)*0.4)], y = max(mex$FCM), colour = "blue", size = 5, label = paste("Ãltima actualización para infectados: ", round(mex$FCI[dim(mex)[1]], 4))) +
   annotate("text", x = mex$Date[round(length(mex$Date)*0.4)], y = max(mex$FCM)-0.2, colour = "red", size = 5, label = paste("Ãltima actualización para muertes: ", round(mex$FCM[dim(mex)[1]], 4))) 
-p
+p#
 ```
