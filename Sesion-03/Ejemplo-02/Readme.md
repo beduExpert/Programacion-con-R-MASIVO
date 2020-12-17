@@ -46,4 +46,4 @@ Separándolas por tipo de transmisión (am =	Transmission (0 = automatic, 1 = ma
 my_scatplot + facet_grid(am~cyl)
 ```
 
-Como puedes observar, hay muchas formas de representar el gráfico de disperción, éstas son algunas de ellas, obviamente existen muchas más. 
+Como puedes observar, hay muchas formas de representar el gráfico de dispersión, éstas son algunas de ellas, obviamente existen muchas más. 
