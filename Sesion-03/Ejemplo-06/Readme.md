@@ -17,8 +17,10 @@ Utilizaremos un data set de Kaggle el cual contiene datos sobre la temperatura e
 library(dplyr)    
     
 w.brazil <- read.csv("../station_fortaleza.csv")
+head(w.brazil)
 
 w.brazil <- w.brazil[, -c(1,14:18)]
+tail(w.brazil)
 class(w.brazil)
 
 plot(w.brazil)
@@ -27,7 +29,7 @@ Quitamos los varoles que sean mayores a 50
 
 ```R
 w.brazil <- w.brazil %>% filter(JAN<50,FEB<50,	MAR<50,	APR<50,	MAY<50,	JUN<50,	JUL<50,	AUG<50,	SEP<50,	OCT<50,	NOV<50,	DEC<50)
-
+plot(w.brazil)
 
 bras <- apply(w.brazil, 2, c)
 class(bras)
@@ -60,8 +62,9 @@ plot(tsbd$trend , main  = "Aditiva", ylab = "Tendencia", xlab = "Año")
 lines(tsbd$seasonal + tsbd$trend, col = 2, lty = 2, lwd = 2 )
 ```
 
-Desoomposición multiplicativa
+Descomposición multiplicativa
 ```R
+# Debemos elegir entre componente estacional aditiva o multiplicativa
 tsbd <- decompose(tsb, type = "multiplicative")
 
 plot(tsbd$trend, main = "Tendencia", ylab = "Tendencia", xlab = "Año")  # Gráfica de la tendencia 
