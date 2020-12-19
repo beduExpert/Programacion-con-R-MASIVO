@@ -91,4 +91,4 @@ library(tseries)
 adf <- adf.test(tsb, alternative ="stationary", k=12)
 ```
 
-Si el p-value es menor que 0.05 se rechaza la hipotesis nula de que la serie de tiempo tiene una raíz unitaria.
+Si el p-value es menor que 0.05 se rechaza la hipotesis nula de que la serie de tiempo tiene una raíz unitaria
