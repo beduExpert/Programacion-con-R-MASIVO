@@ -72,6 +72,7 @@ Realizamos la gráfica de la descomposición aditiva con la tendencia y la estac
 ```R
 plot(tsbd$trend , main  = "Multiplicativa", ylab = "Tendencia", xlab = "Año")
 lines(tsbd$seasonal * tsbd$trend, col = 2, lty = 2, lwd = 2 )
+```
 
 Comportamiento mes a mes
 ```R
