@@ -83,7 +83,8 @@ install.packages("tseries")
 library(tseries)
 
 ```R
+library(tseries)
 adf <- adf.test(tsb, alternative ="stationary", k=12)
 ```
 
-Si el p-value es menor a 0.05 se acepta la hipotesis nula que determina que el comportamiento en la estacionalidad es estocástico.
+Si el p-value es menor que 0.05 se rechaza la hipotesis nula que determina que el comportamiento en la estacionalidad es estocástico.
