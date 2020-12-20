@@ -12,10 +12,10 @@ Estudiar algunas distribuciones de probabilidad muy comunes y útiles, obtener e
 
 #### Los ejemplos de esta sesión 4 son los siguientes:
 
-- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Ejemplo-01) Distribuciones binomial, normal y t de Student
-- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Ejemplo-02) Teorema central del límite
-- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Ejemplo-03) Algunos estimadores puntuales insesgados comunes
-- [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Ejemplo-04) Contraste de hipótesis
+- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Ejemplo-01) Distribuciones binomial, normal y t de Student
+- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Ejemplo-02) Teorema central del límite
+- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Ejemplo-03) Algunos estimadores puntuales insesgados comunes
+- [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Ejemplo-04) Contraste de hipótesis
 
 #### Retos de la sesión 4
 
