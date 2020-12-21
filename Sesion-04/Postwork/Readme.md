@@ -1,15 +1,15 @@
 # Postwork Sesión 4
 
-# Objetivo
+#### Objetivo
 
 - Llevar a cabo un contraste de hipótesis acerca de la diferencia de medias de dos poblaciones normales cuando los tamaños muestrales son pequeños
 
-# Requisitos
+#### Requisitos
 
 - R, RStudio
 - Haber trabajado con el Prework y el Work
 
-# Desarrollo
+#### Desarrollo
 
 Ahora realizarás un procedimiento denominado bootstrap, el cual consiste en realizar reemplazos de las muestras, revisa bibliografía en internet para que tengas nociones de este desarrollo. Esto es útil siempre que se quiere garantizar la aleatoriedad de una muestra. 
 
