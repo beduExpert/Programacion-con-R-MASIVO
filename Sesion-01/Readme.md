@@ -24,9 +24,9 @@ Conocer las nociones básicas para poder manipular data sets, poder realizar lec
 
 ##### Retos de la sesión 1. 
 
-- [Reto 1: Lectura y escritura de datos](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-01)
-- [Reto 2: Loops](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-02)
-- [Reto 3: Operaciones con data frames](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-03)
+- [Reto 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-01) Lectura y escritura de datos
+- [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-02) Loops
+- [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-03) Operaciones con data frames
 
 ![imagen1](imagenes/reto.jpg)
 
