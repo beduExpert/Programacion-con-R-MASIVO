@@ -28,11 +28,3 @@ plot(AP, ylab= "Passengers (x1000)")
 
 plot(decompose(AirPassengers)) # time series decomposition
 
-#Para demostrar si la serie de tiempo tiene un comportamiento estocástico realizaremos la prueba de Dickey-Fuller
-
-
-install.packages("tseries")
-library(tseries)
-adf.test(AP, alternative ="stationary", k=12)
-
-# NOTA: Si _p<0.05_ se descarta la hipotesis nula, es decir que la serie tiene un comportamiento estocástico, caso contrario la serie de tiempo será no tienen comportamiento estocástico, será no estacionaria.
