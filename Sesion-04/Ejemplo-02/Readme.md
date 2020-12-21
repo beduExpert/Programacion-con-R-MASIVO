@@ -1,15 +1,15 @@
-# Ejemplo 2. Teorema central del límite
+# EJEMPLO 2. Teorema central del límite
 
-# Objetivo
+#### Objetivo
 
 - Comprender lo que afirma el teorema central del límite obteniendo muestras aleatorias de diferentes tamaños en `R` y observando la manera en la que se distribuyen las medias de las muestras generadas
 
-# Requisitos
+#### Requisitos
 
 - Tener `R` y RStudio instalados
 - Haber estudiado el Prework
 
-# Desarrollo
+#### Desarrollo
 
 Cargamos el paquete `ggplot2` para hacer algunas gráficas
 
