@@ -72,3 +72,12 @@ p <- ggplot(pvisita, aes(x = goles, y = FRel)) +
   geom_bar (stat="identity", fill = 'red') +
   ggtitle('Equipo visitante')
 p
+
+pcta <- melt(pcta) # Función del paquete reshape2
+pcta <- rename(pcta, gcasa = Var1, gvisita = Var2, ProbEst = value)
+pcta %>% ggplot(aes(gcasa, gvisita)) + 
+  geom_tile(aes(fill = ProbEst)) + 
+  ggtitle('Probabilidades conjuntas estimadas') +
+  scale_fill_gradient(low = 'white', high = 'purple') + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 0))
+
