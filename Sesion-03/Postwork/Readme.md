@@ -3,8 +3,8 @@
 #### Objetivo
 
 - Realizar descarga de archivos desde internet
-- Caracterizar data frames
 - Generar nuevos data frames
+- Visualizar probabilidades estimadas con la ayuda de gráficas
 
 #### Requisitos
 
@@ -14,7 +14,7 @@
 
 #### Desarrollo
 
-Ahora se realiza la parte de graficación para esta parte del postwork, para visualizar las anotaciones de diversos equipos, esto es útil par darse cuenta del desempeño de cada equipo.
+Ahora graficaremos probabilidades (estimadas) marginales y conjuntas para el número de goles que anotan en un partido el equipo de casa o el equipo visitante.
 
 1. Con el último data frame obtenido en el postwork de la sesión 2, elabora tablas de frecuencias relativas para estimar las siguientes probabilidades:
 
