@@ -1,22 +1,18 @@
+# Postwork sesión 3
 
-agrega el programa que se desarrollara con backticks> [agrega la sesion con backticks]
-
-## Titulo del Ejemplo
-
-### OBJETIVO
+#### Objetivo
 
 - Realizar descarga de archivos desde internet
 - Caracterizar data frames
 - Generar nuevos data frames
 
-
-#### REQUISITOS
+#### Requisitos
 
 1. R, RStudio
-2. Haber realizado el prework, postwork y seguir el curso de los ejemplos de la sesión
+2. Haber realizado el prework y seguir el curso de los ejemplos de la sesión
 3. Curiosidad por investigar nuevos tópicos y funciones de R
 
-#### DESARROLLO
+#### Desarrollo
 
 Ahora se realiza la parte de graficación para esta parte del postwork, para visualizar las anotaciones de diversos equipos, esto es útil par darse cuenta del desempeño de cada equipo.
 
