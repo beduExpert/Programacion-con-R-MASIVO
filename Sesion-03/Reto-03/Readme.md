@@ -26,4 +26,4 @@ Full players stats from the 2014-2015 season + personal details such as height. 
 
 6. ¿Cuál es la altura promedio?, representa el resultado en una frase que diga: "La altura promedio es: ALTURA"
 
-7. Generar un boxplot donde se representen las Asistencias totales (`AST.TOV`) vs Puntos (`PTS`), además has un face wrap con la posición (`Pos`). ¿Cuál posición es la que realiza más asistencias totales, y anota más puntos?
+7. Generar un scatterplot donde se representen las Asistencias totales (`AST.TOV`) vs Puntos (`PTS`), además has un face wrap con la posición (`Pos`). 
