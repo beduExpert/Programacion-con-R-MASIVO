@@ -194,7 +194,7 @@ Supongamos que estamos interesados en encontrar la región de rechazo (de cola s
 Como
 
 ```R
-z0 > z.05
+t0 > t.05
 ```
 
 rechazamos la hipótesis nula
