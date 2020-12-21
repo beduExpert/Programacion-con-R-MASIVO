@@ -1,15 +1,15 @@
-# Ejemplo 3. Algunos estimadores puntuales insesgados comunes
+# EJEMPLO 3. Algunos estimadores puntuales insesgados comunes
 
-# Objetivo
+#### Objetivo
 
 - Entender la idea de estimador insesgado de un parámetro
 
-# Requisitos
+#### Requisitos
 
 - Tener `R` y RStudio instalados
 - Haber leido el Prework
 
-# Desarrollo
+#### Desarrollo
 
 Cargamos el paquete `ggplot2` para hacer algunas gráficas
 
