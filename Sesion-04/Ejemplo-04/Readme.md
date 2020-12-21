@@ -1,17 +1,17 @@
-# Ejemplo 4. Contraste de hipótesis
+# EJEMPLO 4. Contraste de hipótesis
 
-# Objetivo
+#### Objetivo
 
 - Llevar a cabo contrastes de hipótesis que ayuden a tomar decisiones
 
-# Requisitos
+#### Requisitos
 
 - Tener instalado `R` y RStudio
 - Haber estudiado el Prework
 
-# Desarrollo
+#### Desarrollo
 
-# Contrastes comunes con muestras grandes
+#### Contrastes comunes con muestras grandes
 
 #### Contraste de cola superior
 
