@@ -22,9 +22,9 @@ Se estudian conceptos básicos de estadística para contextualizar al alumno y s
 
 #### Retos de la sesión 2
 
-- [Reto 1: Medidas de tendencia central](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-01) 
-- [Reto 2: Características de los datos](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-02) 
-- [Reto 3: Lectura de datos y usos de `dplyr`](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-03) 
+- [Reto 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-01) Medidas de tendencia central
+- [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-02) Características de los datos
+- [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-03) Lectura de datos y usos de `dplyr`
 
 ## Postwork
 
