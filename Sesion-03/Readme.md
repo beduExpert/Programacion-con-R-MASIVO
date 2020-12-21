@@ -27,5 +27,5 @@ Conocer mejor el conjunto de datos con el que se esté trabajando,
 
 ## Postwork de la sesión
 
-- [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Postwork)
+- [Postwork](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Postwork)
 
