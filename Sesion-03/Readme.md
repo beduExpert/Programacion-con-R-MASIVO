@@ -21,9 +21,9 @@ Conocer mejor el conjunto de datos con el que se esté trabajando,
 
 ##### Retos de la sesión 3.
 
-- [Reto 1: Series de tiempo](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Reto-01)
-- [Reto 2: Altura de los alumnos](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Reto-02)
-- [Reto 3: Estadísticos de la NBA](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Reto-03)
+- [Reto 1: Series de tiempo](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-01)
+- [Reto 2: Altura de los alumnos](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-02)
+- [Reto 3: Estadísticos de la NBA](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-03)
 
 ## Postwork de la sesión
 
