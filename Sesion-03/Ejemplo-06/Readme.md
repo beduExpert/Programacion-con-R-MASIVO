@@ -82,13 +82,3 @@ Comportamiento mes a mes
 boxplot(tsb ~ cycle(tsb), ylim = c(min(tsb), max(tsb) ) )
 ```
 
-Ahora vamos a determinar si el comportamiento en la tendencia es estocástico o no utilizando la prueba de _Dickey-Fuller_
-install.packages("tseries")
-library(tseries)
-
-```R
-library(tseries)
-adf <- adf.test(tsb, alternative ="stationary", k=12)
-```
-
-Si el p-value es menor que 0.05 se rechaza la hipotesis nula de que la serie de tiempo tiene una raíz unitaria
