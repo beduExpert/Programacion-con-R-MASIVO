@@ -162,7 +162,7 @@ polygon(c(z0, x[x>=z0], max(x)), c(0, y[x>=z0], 0), col="purple")
 axis(side = 1, at = z0, font = 2, padj = 1, lwd = 2)
 ```
 
-# Contraste de hipótesis con muestras pequeñas para mu y mu1 - mu2
+#### Contraste de hipótesis con muestras pequeñas para mu y mu1 - mu2
 
 #### Contraste de cola superior
 
