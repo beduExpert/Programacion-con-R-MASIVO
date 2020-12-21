@@ -1,4 +1,4 @@
-# Reto 3. Estádisticos de la NBA
+# RETO 3. Estádisticos de la NBA
 
 Full players stats from the 2014-2015 season + personal details such as height. weight, etc.
 
@@ -6,7 +6,7 @@ Full players stats from the 2014-2015 season + personal details such as height. 
 - Generar histogramas
 - Generar gráficos de dispersión
 - Identificar datos relevantes 
-- Graficas de Boxplot
+- Hacer Boxplots
 
 #### Requisito
 - Manejo de data frames
@@ -18,11 +18,11 @@ Full players stats from the 2014-2015 season + personal details such as height. 
 
 2. Generar un histograma de edad (`Age`) y agregar una línea con la media
 
-3. Graficar un scatterplot de las variables `Weight` y  `Height` y ver observar la correlacón que existe entre ambas variables (1 sola gráfica)
+3. Hacer un scatterplot de las variables `Weight` y  `Height` y observar la correlacón que existe entre ambas variables (1 sola gráfica)
 
 4. Utiliza la función `which.max` para saber quién es el jugador más alto, una vez hecho esto, presenta los resultados en una leyenda que diga "El jugador más alto es: `Name`, con una altura de: `Height`". Las unidades de altura deben ser en metros.
 
-5. Utiliza la función `which.min` para saber quién es el jugador más bajito, una vez hecho esto, presenta los resultados en una leyenda que diga "El jugador más BAJITO es: `Name`, con una altura de: `Height`". Las unidades de altura deben ser en metros.
+5. Utiliza la función `which.min` para saber quién es el jugador más bajito, una vez hecho esto, presenta los resultados en una leyenda que diga "El jugador más bajito es: `Name`, con una altura de: `Height`". Las unidades de altura deben ser en metros.
 
 6. ¿Cuál es la altura promedio?, representa el resultado en una frase que diga: "La altura promedio es: ALTURA"
 
