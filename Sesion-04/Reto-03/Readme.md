@@ -1,14 +1,14 @@
-# Reto 3. Contraste de hipótesis
+# RETO 3. Contraste de hipótesis
 
-# Objetivo
+#### Objetivo
 
 - Llevar a cabo un contraste de hipótesis acerca de la media de una población normal cuando el tamaño muestral es pequeño.
 
-# Requisitos
+#### Requisitos
 
 - Haber trabajado con el Prework y el Work
 
-# Desarrollo
+#### Desarrollo
 
 Dada una muestra aleatoria de tamaño n = 10 de una distribución normal
 
