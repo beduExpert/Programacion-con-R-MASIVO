@@ -23,6 +23,6 @@ Estudiar algunas distribuciones de probabilidad muy comunes y útiles, obtener e
 - [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Reto-02) Algunos estimadores puntuales insesgados comunes
 - [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Reto-03) Contraste de hipótesis
 
-## Postwork
+#### Postwork
 
-- [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Postwork)
+- [Postwork](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Postwork)
