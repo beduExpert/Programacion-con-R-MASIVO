@@ -55,7 +55,3 @@ lines(tsbd$seasonal * tsbd$trend, col = 2, lty = 2, lwd = 2 )
 # Comportamiento mes a mes
 
 boxplot(tsb ~ cycle(tsb), ylim = c(min(tsb), max(tsb) ) )
-# Ahora vamos a determinar si el comportamiento en la tendencia es estocástico o no utilizando la prueba de Dickey-Fuller install.packages("tseries") library(tseries)
-
-library(tseries)
-(adf <- adf.test(tsb, alternative ="stationary", k=12))
