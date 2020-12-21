@@ -8,7 +8,7 @@ Full players stats from the 2014-2015 season + personal details such as height. 
 - Identificar datos relevantes 
 - Hacer Boxplots
 
-#### Requisito
+#### Requisitos
 - Manejo de data frames
 - Graficas básicas
 
