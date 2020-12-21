@@ -19,9 +19,9 @@ Estudiar algunas distribuciones de probabilidad muy comunes y útiles, obtener e
 
 #### Retos de la sesión 4
 
-- [Reto 1: Distribuciones binomial, normal y t de Student](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Reto-01) 
-- [Reto 2: Algunos estimadores puntuales insesgados comunes](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Reto-02) 
-- [Reto 3: Contraste de hipótesis](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-04/Reto-03) 
+- [Reto 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Reto-01) Distribuciones binomial, normal y t de Student
+- [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Reto-02) Algunos estimadores puntuales insesgados comunes
+- [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-04/Reto-03) Contraste de hipótesis
 
 ## Postwork
 
