@@ -33,7 +33,7 @@ plot(Adi) # 2.
 
 plot(Mul)
 
-plot(Adi$trend , main  = "Aditiva", ylab = "Tendencia", xlab = "Año") # 3. # 3.
+plot(Adi$trend , main  = "Aditiva", ylab = "Tendencia", xlab = "Año") # 3.
 lines(Adi$seasonal + Adi$trend, col = 2, lty = 2, lwd = 2 )
 
 # Debemos elegir entre componente estacional aditiva o multiplicativa
