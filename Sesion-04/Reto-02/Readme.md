@@ -1,14 +1,14 @@
-# Reto 2. Algunos estimadores puntuales insesgados comunes
+# RETO 2. Algunos estimadores puntuales insesgados comunes
 
-# Objetivo
+#### Objetivo
 
 - Entender la idea de estimador puntual insesgado 
 
-# Requisitos
+#### Requisitos
 
 - Haber estudiado el Prework y el Work
 
-# Desarrollo
+#### Desarrollo
 
 1. Genere 1500 muestras de tamaño 67 de la distribución exponencial con parámetro 5
 2. Obtenga las 1500 medias correspondientes a cada una de las muestras
