@@ -1,4 +1,4 @@
-# RETO 3. Estádisticos de la NBA
+# RETO 3. Estadísticos de la NBA
 
 Full players stats from the 2014-2015 season + personal details such as height. weight, etc.
 
