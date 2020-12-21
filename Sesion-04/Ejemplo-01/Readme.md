@@ -1,23 +1,23 @@
-# Ejemplo 1. Distribuciones binomial, normal y t de Student
+# EJEMPLO 1. Distribuciones binomial, normal y t de Student
 
-# Objetivo
+#### Objetivo
 
 - Aprender a obtener probabilidades, cuantiles y muestras aleatorias relacionadas con las distribuciones binomial, normal y t de Student
 - Intepretar las probabilidades cuando se condieran las gráficas de las funciones de probabilidad y de densidad
 
-# Requisitos
+#### Requisitos
 
 - Tener R y RStudio instalado
 - Haber leido el Prework
 
-# Desarrollo
+#### Desarrollo
 
 ```R
 library(ggplot2) # Utilizaremos estos paquetes para algunas gráficas
 library(reshape2)
 ```
 
-# Distribución binomial
+#### Distribución binomial
 
 En `R` para calcular valores de las funciones de probabilidad, distribución o cuantiles de la distribución binomial (discreta), usamos las funciones `dbinom`, `pbinom` y  `qbinom` respectivamente. Para generar muestras aleatorias de esta distribución utilizamos la función `rbinom`.
 
@@ -98,7 +98,7 @@ ggplot(df2, aes(x = Exitos, y = value, fill = variable)) +
   geom_bar (stat="identity", position = "dodge") # Funciones del paquete ggplot2
 ```
 
-# Distribución normal
+#### Distribución normal
 
 En `R` para calcular valores de las funciones de densidad, distribución o cuantiles de la distribución normal (continua), usamos las funciones `dnorm`, `pnorm` y  `qnorm` respectivamente. Para generar muestras aleatorias de esta distribución utilizamos la función `rnorm`.
 
@@ -255,7 +255,7 @@ segments(x0 = xf, y0 = 0, x1 = xf, y1 = yf,
          lty = "dotted")     
 ```
 
-# Distribución t de Student
+#### Distribución t de Student
 
 En `R` para calcular valores de las funciones de densidad, distribución o cuantiles de la distribución t de Student (continua), usamos las funciones `dt`, `pt` y  `qt` respectivamente. Para generar muestras aleatorias de esta distribución utilizamos la función `rt`.
 
