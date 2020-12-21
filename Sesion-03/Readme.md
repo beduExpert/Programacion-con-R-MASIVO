@@ -12,12 +12,12 @@ Conocer mejor el conjunto de datos con el que se esté trabajando,
 
 ##### Aquí encontraras los ejemplos de la sesión 3.
 
-- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Ejemplo-01) Paquete ggplot2
-- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Ejemplo-02) Gráficos de dispersión
-- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Ejemplo-03) Boxplots y outliers
-- [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Ejemplo-04) Histogramas
-- [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Ejemplo-05) Gráficos de barras
-- [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-03/Ejemplo-06) Series de tiempo y descomposición
+- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-01) Paquete ggplot2
+- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-02) Gráficos de dispersión
+- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-03) Boxplots y outliers
+- [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-04) Histogramas
+- [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-05) Gráficos de barras
+- [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-06) Series de tiempo y descomposición
 
 ##### Retos de la sesión 3.
 
