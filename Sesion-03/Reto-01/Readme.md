@@ -1,6 +1,6 @@
-# Reto 1. Series de tiempo
+# RETO 1. Series de tiempo
 
-#### Proposito
+#### Objetivo
 - Poner en práctica los conocimientos de series de tiempo para poder manipularlas y así obtener información relevante
 - Implementar la descomposición **aditiva** y **multiplicativa**
 
