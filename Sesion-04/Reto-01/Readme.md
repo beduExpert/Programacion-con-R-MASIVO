@@ -1,15 +1,15 @@
-# Reto 1. Distribuciones binomial, normal y t de Student
+# RETO 1. Distribuciones binomial, normal y t de Student
 
-# Objetivo
+#### Objetivo
 
 - Calcular probabilidades y cuantiles relacionadas con algunas distribuciones de probabilidad útiles y comunes
 - Generar muestras aleatorias que provengan de las distribuciones estudiadas
 
-# Requisitos
+#### Requisitos
 
 - Haber trabajado con el Prework y el Work
 
-# Desarrollo
+#### Desarrollo
 
 #### Distribución binomial
 
