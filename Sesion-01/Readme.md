@@ -28,7 +28,7 @@ Conocer las nociones básicas para poder manipular data sets, poder realizar lec
 - [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-02) Loops
 - [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-03) Operaciones con data frames
 
-![imagen1](imagenes/reto.jpg)
+
 
 ## Postwork de la sesión
 
