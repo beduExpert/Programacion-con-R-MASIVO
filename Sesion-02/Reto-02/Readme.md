@@ -1,4 +1,4 @@
-# Reto 2. Características de los datos
+# Reto 2. Características de los objetos
 
 #### Objetivo
 
