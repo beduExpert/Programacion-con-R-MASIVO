@@ -8,7 +8,7 @@ x <- round(rnorm(1000, 175, 6), 1)
 
 # 1. Calcule, la media, mediana y moda de los valores en x
 # 2. Obtenga los deciles de los números en x
-# 3. Encuentre la rango intercuartílico, la desviación estándar y varianza muestral
+# 3. Encuentre el rango intercuartílico, la desviación estándar y varianza muestral
 
 # Solución
 
