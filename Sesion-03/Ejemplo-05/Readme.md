@@ -81,7 +81,8 @@ library(ggplot2)
 library(scales)
 ```
 
-Ahora vamos a leer nuestro archivo con los resultados de la variable `mex` con los infectados y muertos acumulados para cada fecha
+Ahora vamos a leer nuestro archivo con los resultados de la variable `mex` con los infectados y muertos acumulados para cada fecha (Los pasos anteriores fueron solo para recordar, ya que el ejemplo se realizó durante la sesión 2)
+
 ```R
 mex <- read.csv("C19Mexico.csv")
 
