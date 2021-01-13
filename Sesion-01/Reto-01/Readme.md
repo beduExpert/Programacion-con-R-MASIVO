@@ -18,4 +18,5 @@ Abre el fichero que se encuentra en el repositorio y obten sus carácteristicas,
 (Hint: primero podrías filtrar solo aquellas filas del data frame que corresponden a estrenos después del 2015, por ejemplo, `dataframe[columna > 2015, ]`)
 
 4. Escribir los resultados en un archivo .csv llamado res.netflix.csv
+(Hint: consulta la función `write.csv`)
 
