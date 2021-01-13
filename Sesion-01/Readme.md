@@ -13,22 +13,17 @@ Conocer las nociones básicas para poder manipular data sets, poder realizar lec
 - Pseudocodigo
 
 
-##### Aquí encontraras los ejemplos de la sesión 1.
+##### Aquí encontraras los ejemplos y retos de la sesión 1.
 
 - [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Ejemplo-01) Tipos de datos y vectores
 - [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Ejemplo-02) Matrices
 - [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Ejemplo-03) Listas y data frames
 - [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Ejemplo-04) Descarga y lectura de data sets
-- [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Ejemplo-05) Instalar paquetes y cargarlos.
-- [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Ejemplo-06) Loops y pseudocódigo: for, if-else
-
-##### Retos de la sesión 1. 
-
 - [Reto 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-01) Lectura y escritura de datos
+- [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Ejemplo-05) Instalar paquetes y cargarlos.
 - [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-02) Operaciones con data frames
+- [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Ejemplo-06) Loops y pseudocódigo: for, if-else
 - [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-03) Loops
-
-
 
 ## Postwork de la sesión
 
