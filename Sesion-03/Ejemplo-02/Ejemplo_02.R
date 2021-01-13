@@ -1,5 +1,3 @@
-# Utilizaremos los mismos datos del ejemplo 3
-
 data2 <- read.csv("C:/Users/Jenner/Desktop/Programacion-con-R-Santander-master/Sesion-03/Data/boxp.csv")
 head(data2)
 names(data2)
