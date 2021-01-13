@@ -11,13 +11,13 @@
 
 #### Desarrollo
 
-Utilizaremos un data set de Kaggle el cual contiene datos sobre la temperatura en Fortaleza, Brasil del año 1946 a 1980. Lo primero que se hará será ajustar los datos para poder leerlos adecuadamente.
+Utilizaremos un data set de Kaggle el cual contiene datos sobre la temperatura en Fortaleza, Brasil. Lo primero que se hará será ajustar los datos para poder leerlos adecuadamente (Este ejemplo es principalmente para conocer las funciones de `R` que nos ayudan a trabajar con series de tiempo).
 
 ```R
 library(dplyr)    
     
 w.brazil <- read.csv("../station_fortaleza.csv")
-head(w.brazil)
+tail(w.brazil)
 
 w.brazil <- w.brazil[, -c(1,14:18)]
 tail(w.brazil)
@@ -64,7 +64,7 @@ lines(tsbd$seasonal + tsbd$trend, col = 2, lty = 2, lwd = 2 )
 
 Descomposición multiplicativa
 ```R
-# Debemos elegir entre componente estacional aditiva o multiplicativa
+# Debemos elegir entre descomposición aditiva o multiplicativa
 tsbd <- decompose(tsb, type = "multiplicative")
 
 plot(tsbd$trend, main = "Tendencia", ylab = "Tendencia", xlab = "Año")  # Gráfica de la tendencia 
