@@ -1,4 +1,4 @@
-# Reto 3. Operaciones con data frames
+# Reto 2. Operaciones con data frames
 
 # Objetivo
 
