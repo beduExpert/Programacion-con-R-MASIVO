@@ -10,7 +10,7 @@ Conocer mejor el conjunto de datos con el que se esté trabajando,
 - Plantear hipótesis 
 - Formular preguntas relevantes.  
 
-##### Aquí encontraras los ejemplos de la sesión 3.
+##### Aquí encontraras los ejemplos y retos de la sesión 3.
 
 - [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-01) Paquete ggplot2
 - [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-02) Gráficos de dispersión
@@ -18,12 +18,10 @@ Conocer mejor el conjunto de datos con el que se esté trabajando,
 - [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-04) Histogramas
 - [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-05) Gráficos de barras
 - [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-06) Series de tiempo y descomposición
+- [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-03) Series de tiempo y descomposición
 
-##### Retos de la sesión 3.
-
-- [Reto 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-01) Series de tiempo
-- [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-02) Altura de los alumnos
-- [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-03) Estadísticos de la NBA
+- [Reto 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-01) Altura de los alumnos
+- [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-02) Estadísticos de la NBA
 
 ## Postwork de la sesión
 
