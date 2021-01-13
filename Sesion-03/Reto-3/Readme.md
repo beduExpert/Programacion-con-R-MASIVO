@@ -1,4 +1,4 @@
-# RETO 1. Series de tiempo
+# RETO 3. Series de tiempo
 
 #### Objetivo
 - Poner en práctica los conocimientos de series de tiempo para poder manipularlas y así obtener información relevante
