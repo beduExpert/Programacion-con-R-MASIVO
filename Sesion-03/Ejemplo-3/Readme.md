@@ -1,4 +1,4 @@
-# Ejemplo 2. Gráficos de dispersión (scatter plots)  
+# Ejemplo 3. Gráficos de dispersión (scatter plots)  
 
 #### Objetivo
 - Desarrollar habilidades para realizar e interpretar scatter plots
