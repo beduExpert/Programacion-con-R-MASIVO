@@ -1,4 +1,4 @@
-# RETO 2. Altura de los alumnos
+# RETO 1. Altura de los alumnos
 
 #### Objetivo
 - Crear histogramas con `hist()` y con `ggplot`
