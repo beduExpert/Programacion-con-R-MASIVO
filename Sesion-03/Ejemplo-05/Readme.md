@@ -65,11 +65,11 @@ mex <- mutate(mex, IDA = lag(Infectados), MDA = lag(Muertos)) # Valores día ant
 mex <- mutate(mex, FCI = Infectados/IDA, FCM = Muertos/MDA) # Factores de Crecimiento
 mex <- mutate(mex, Dia = 1:dim(mex)[1]) # Días de contingencia
 
-setwd(".../Sesion_03/")  #Fijando el wd
+setwd(".../Sesion_03/")  # Fijando el wd (depende del usuario)
 ```
 Escribimos los resultados de la variable `mex`, en el archivo C19Mexico.csv
 ```R
-write.csv(mex, "../Sesion_03/C19Mexico.csv")
+write.csv(mex, "../Sesion_03/C19Mexico.csv", row.names = F) # La ruta depende del usuario
 dir()  # observemos que se creo en la ruta deseada
 
 # install.packages("dplyr")
