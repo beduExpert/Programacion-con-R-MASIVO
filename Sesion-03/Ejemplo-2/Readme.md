@@ -1,4 +1,4 @@
-# Ejemplo 4. Histogramas
+# Ejemplo 2. Histogramas
 
 #### Objetivo
 - Generar histogramas de datasets
