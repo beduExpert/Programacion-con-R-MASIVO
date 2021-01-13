@@ -1,4 +1,4 @@
-# Reto 2. Loops
+# Reto 3. Loops
 
 # Objetivo 
 
