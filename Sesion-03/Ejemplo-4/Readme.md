@@ -1,4 +1,4 @@
-# Ejemplo 3. Boxplots y outliers
+# Ejemplo 4. Boxplots y outliers
 
 #### Objetivo
 - Generar y comprender los gráficos de tipo boxplot
