@@ -11,9 +11,8 @@
 
 #### Desarrollo
 
-Utilizaremos los mismos datos del ejemplo 3
-
 ```R
+library(dplyr)
 data2 <- read.csv("../Sesion_03/boxp.csv")
 head(data2)
 names(data2)
