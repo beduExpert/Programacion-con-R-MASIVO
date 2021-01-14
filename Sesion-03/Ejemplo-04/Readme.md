@@ -11,11 +11,7 @@
 #### Desarrollo
 Comenzamos leyendo un fichero, el cual contiene información sobre dos grupos de control G1 y G2, a los cuales se les realizó  a cada uno una medición en 3 momentos diferentes C1, C2 y C3
 
-Cargamos las librerias necesarias para la realización del ejemplo, además del fichero CVS a utilizar
 ```R
-library(ggplot2)
-library(dplyr)
-
 data2 <- read.csv("../Sesion_03/boxp.csv")
 ```
 
