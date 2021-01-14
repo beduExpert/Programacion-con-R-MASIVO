@@ -1,5 +1,5 @@
 library(dplyr)
-data2 <- read.csv("C:/Users/Jenner/Desktop/Programacion-con-R-Santander-master/Sesion-03/Data/boxp.csv")
+data2 <- read.csv("../Sesion-03/Data/boxp.csv")
 head(data2)
 names(data2)
 data <- mutate(data2, Mediciones = Mediciones*1.23)
