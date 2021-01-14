@@ -1,7 +1,5 @@
 # Utilizaremos un data set de Kaggle el cual contiene datos sobre la temperatura en Fortaleza, Brasil del año 1946 a 1980. Lo primero que se hará será ajustar los datos para poder leerlos adecuadamente.
 
-library(dplyr)    
-
 w.brazil <- read.csv("../station_fortaleza.csv")
 head(w.brazil)
 
