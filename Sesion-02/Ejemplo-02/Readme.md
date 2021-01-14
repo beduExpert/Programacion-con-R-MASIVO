@@ -71,7 +71,7 @@ En `R` también podemos crear nuestras propias funciones, por ejemplo
 
 ```R
 moda <- function(vector){
-f.abs <- table(x) # frecuencias absolutas
+f.abs <- table(vector) # frecuencias absolutas
 max.f.abs <- max(f.abs) # obtenemos la máxima frecuencia absoluta
 pos.max <- which(f.abs == max.f.abs) # posición(es) de la(s) máxima(s) frecuencia(s) absoluta(s)
 print("La(s) moda(s) es(son): ")
