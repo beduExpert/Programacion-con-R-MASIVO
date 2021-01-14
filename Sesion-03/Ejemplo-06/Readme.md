@@ -13,9 +13,7 @@
 
 Utilizaremos un data set de Kaggle el cual contiene datos sobre la temperatura en Fortaleza, Brasil. Lo primero que se hará será ajustar los datos para poder leerlos adecuadamente (Este ejemplo es principalmente para conocer las funciones de `R` que nos ayudan a trabajar con series de tiempo).
 
-```R
-library(dplyr)    
-    
+```R    
 w.brazil <- read.csv("../station_fortaleza.csv")
 tail(w.brazil)
 
