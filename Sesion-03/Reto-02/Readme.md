@@ -14,7 +14,7 @@ Full players stats from the 2014-2015 season + personal details such as height. 
 
 #### Desarrollo
 
-1. Generar un histograma de los minuntos totales (`MIN`), de los jugadores y agregar una línea donde se muestre la media
+1. Generar un histograma de los minuntos totales (`MIN`), de los jugadores y agregar una línea donde se muestre la media (Hint: para agregar la línea que muestre la media consulta la documentación sobre `geom_vline` y el argumento `xintercept`)
 
 2. Generar un histograma de edad (`Age`) y agregar una línea con la media
 
