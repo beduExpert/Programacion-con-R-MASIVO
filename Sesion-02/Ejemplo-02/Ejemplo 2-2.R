@@ -1,4 +1,4 @@
-# 2.1 Características de los objetos (str sobre df, summary, head y view)
+# 2.1 Características de los objetos (str sobre df, summary, head y view) y funciones
 
 # Función str
 
