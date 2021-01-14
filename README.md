@@ -13,7 +13,7 @@
  - [Sesión 5: Regresión lineal y clasificación](Sesion-05/Readme.md) 
  - [Sesión 6: Series de tiempo](Sesion-06/Readme.md)
  - [Sesión 7: RStudio Cloud - Github, conexiones con BDs y lectura de datos externos](Sesion-07/Readme.md) 
- - [Sesión 8: Dashboards con Shiny - Entorno GUI](Sesion-07/Readme.md)
+ - [Sesión 8: Dashboards con Shiny - Entorno GUI](Sesion-08/Readme.md)
 
 
  
