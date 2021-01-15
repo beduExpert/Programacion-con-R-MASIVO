@@ -11,7 +11,7 @@
 - Uso de `ggplot`
 
 #### Desarrollo
-Al inicio es posible que no comprendas todo el código, trata de leerlo e ir asimilando que es lo que realiza cada línea. Comenzaremos descargando los archivos CSV, con los últimos resultados de los datos de la enfermedad COVID-19 
+Al inicio es posible que no comprendas todo el código, trata de leerlo e ir asimilando que es lo que realiza cada línea. 
 
 
 Ahora se leerá el archivo C19Mexico.csv con los infectados y muertos acumulados para cada fecha creado previamente durante la sesión 2
