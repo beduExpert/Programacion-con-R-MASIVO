@@ -23,7 +23,7 @@ vector <- sort(vector) # Ordenamos los valores de menor a mayor
 if(n%%2 == 0){ # Si el número de elementos es par hacemos lo siguiente
 paste("La mediana es: ", mean(vector[c(n/2, n/2+1)])) 
 } else{ # De otra manera hacemos lo siguiente
-paste("La mediana es: ", mean(vector[round(n/2)]))
+paste("La mediana es: ", vector[round(n/2)])
 }
 
 }
