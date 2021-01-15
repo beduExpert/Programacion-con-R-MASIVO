@@ -107,4 +107,5 @@ Finalmente, observamos algunas filas de nuestro último data frame
 
 ```R
 head(mex); tail(mex)
+write.csv(mex, "C19Mexico.csv", row.names = FALSE)
 ```
