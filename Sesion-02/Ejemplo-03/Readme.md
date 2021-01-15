@@ -60,7 +60,7 @@ Sconf <- select(Sconf, Country.Region, Date, Value) # País, fecha y acumulado d
 Con la función `rename`, renombramos las columnas correspondientes al país y al número acumulado de infectados por covid-19
 
 ```R
-Sconf <- rename(Sconf, Country = Country.Region, Infectados = Value)
+Sconf <- rename(Sconf, Pais = Country.Region, Infectados = Value)
 ```
 
 ```R
@@ -70,15 +70,15 @@ str(Sconf)
 Como cada una de las columnas del último data frame aparecen como factor, con la función `mutate` transformamos las columnas correspondientes a fechas y a número de infectados, esto para que `R` reconozca como fechas la columna correspondiente y como números los elementos de la columna que indica el acumulado de casos.
 
 ```R
-Sconf <- mutate(Sconf, Date = as.Date(Date, "%Y-%m-%d"), Infectados = as.numeric(as.character(Infectados))) # La función as.character solo es necesaria si la variable Infectados está como factor
+Sconf <- mutate(Sconf, Date = as.Date(Date, "%Y-%m-%d"), Infectados = as.numeric(Infectados)) 
 ```
 
 Hacemos algo similar con el data frame correspondiente al número acumulado de muertos
 
 ```R
 Smu <- select(Smu, Country.Region, Date, Value) # Seleccionamos país, fecha y acumulado de muertos
-Smu <- rename(Smu, Country = Country.Region, Muertos = Value) # Renombramos
-Smu <- mutate(Smu, Date = as.Date(Date, "%Y-%m-%d"), Muertos = as.numeric(as.character(Muertos))) # La función as.character solo es necesaria si la variable Muertos está como factor
+Smu <- rename(Smu, Pais = Country.Region, Muertos = Value) # Renombramos
+Smu <- mutate(Smu, Date = as.Date(Date, "%Y-%m-%d"), Muertos = as.numeric(Muertos)) 
 ```
 
 ```R
@@ -86,7 +86,7 @@ Scm <- merge(Sconf, Smu) # Unimos infectados y muertos acumulados para cada fech
 ```
 
 ```R
-mex <- filter(Scm, Country == "Mexico") # Seleccionamos sólo a México
+mex <- filter(Scm, Pais == "Mexico") # Seleccionamos sólo a México
 mex <- filter(mex, Infectados != 0) # Primer día de infectados
 ```
 
