@@ -57,7 +57,6 @@ lista <- lapply(dir(), read.csv) # Guardamos los archivos en lista
 los elementos de `lista` son los archivos csv leidos y se encuentran como data frames
 
 ```R
-library(dplyr)
 lista <- lapply(lista, select, Date:FTR) # seleccionamos solo algunas columnas de cada data frame
 head(lista[[1]]); head(lista[[2]]); head(lista[[3]]); head(lista[[4]])
 ```
