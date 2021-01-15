@@ -41,7 +41,7 @@ Sconf <- select(Sconf, Country.Region, Date, Value) # País, fecha y acumulado d
 # Con la función rename, renombramos las columnas correspondientes al país
 # y al número acumulado de casos de infectados por covid-19
 
-Sconf <- rename(Sconf, Country = Country.Region, Infectados = Value)
+Sconf <- rename(Sconf, Pais = Country.Region, Fecha = Date, Infectados = Value)
 
 str(Sconf)
 
@@ -51,14 +51,14 @@ str(Sconf)
 # columna correspondiente y como números los elementos de la columna que 
 # indica el acumulado de casos.
 
-Sconf <- mutate(Sconf, Date = as.Date(Date, "%Y-%m-%d"), Infectados = as.numeric(as.character(Infectados)))
+Sconf <- mutate(Sconf, Fecha = as.Date(Fecha, "%Y-%m-%d"), Infectados = as.numeric(Infectados))
 
 # Hacemos algo similar con el data frame correspondiente al número
 # acumulado de muertos
 
 Smu <- select(Smu, Country.Region, Date, Value) # Seleccionamos país, fecha y acumulado de muertos
-Smu <- rename(Smu, Country = Country.Region, Muertos = Value) # Renombramos
-Smu <- mutate(Smu, Date = as.Date(Date, "%Y-%m-%d"), Muertos = as.numeric(as.character(Muertos))) # Transformamos
+Smu <- rename(Smu, Pais = Country.Region, Fecha = Date, Muertos = Value) # Renombramos
+Smu <- mutate(Smu, Fecha = as.Date(Fecha, "%Y-%m-%d"), Muertos = as.numeric(Muertos)) # Transformamos
 
 
 Scm <- merge(Sconf, Smu) # Unimos infectados y muertos acumulados para cada fecha
