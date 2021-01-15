@@ -78,3 +78,4 @@ mex <- mutate(mex, FCI = Infectados/IDA, FCM = Muertos/MDA) # Factores de Crecim
 mex <- mutate(mex, Dia = 1:dim(mex)[1]) # Días de contingencia
 
 head(mex); tail(mex)
+write.csv(mex, "C19Mexico.csv", row.names = FALSE)
