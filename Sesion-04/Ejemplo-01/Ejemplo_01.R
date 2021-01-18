@@ -12,32 +12,32 @@ library(reshape2)
 
 # Consideremos un experimento binomial con n = 30 pruebas 
 # idénticas e independientes, en donde la probabilidad de éxito en cada prueba
-# es p = 0.6 (parámetros n = 30 y p = 0.6)
+# es p = 0.2 (parámetros n = 30 y p = 0.2)
 
 #### Función de probabilidad
 
 # Para obtener P(X = 20), es decir, la probabilidad de observar
 # 20 éxitos exactamente, en `R` ejecutamos
 
-dbinom(x = 20, size = 30, prob = 0.6)
+dbinom(x = 20, size = 30, prob = 0.2)
 
 #### Función de distribución
 
 # Para obtener P(X <= 20), es decir, la probabilidad de observar
 # a lo más 20 éxitos, en `R` corremos
 
-pbinom(q = 20, size = 30, prob = 0.6)
+pbinom(q = 20, size = 30, prob = 0.2)
 
 # Para encontrar el valor más pequeño b tal que P(X <= b) >= 0.35,
 # es decir, el cuantil de orden 0.35, usamos
 
 #### Cuantiles
 
-qbinom(p = 0.35, size = 30, prob = 0.6) # b = 17
+qbinom(p = 0.35, size = 30, prob = 0.2) # b = 5
 
-pbinom(q = 16, size = 30, prob = 0.6) # P(X <= 16) = 0.2855 < 0.35
-pbinom(q = 17, size = 30, prob = 0.6) # P(X <= 17) = 0.4215 >= 0.35
-pbinom(q = 18, size = 30, prob = 0.6) # P(X <= 18) = 0.5689 >= 0.35
+pbinom(q = 4, size = 30, prob = 0.2) # P(X <= 4) = 0.2552 < 0.35
+pbinom(q = 5, size = 30, prob = 0.2) # P(X <= 5) = 0.4275 >= 0.35
+pbinom(q = 6, size = 30, prob = 0.2) # P(X <= 6) = 0.6070 >= 0.35
 
 #### Muestras aleatorias
 
@@ -46,7 +46,7 @@ pbinom(q = 18, size = 30, prob = 0.6) # P(X <= 18) = 0.5689 >= 0.35
 # hacemos
 
 set.seed(4857) # Establecemos una semilla, para poder reproducir la muestra en el futuro
-muestra <- rbinom(n = 1000, size = 30, prob = 0.6)
+muestra <- rbinom(n = 1000, size = 30, prob = 0.2)
 length(muestra); muestra[1:3]
 
 # Podemos observar las frecuencias absolutas de los distintos valores
@@ -63,7 +63,7 @@ valg <- as.character(df1$muestra) # distintos valores generados por rbinom
 
 # Las frecuencias relativas son muy parecidas a las siguientes probabilidades
 
-(v1 <- round(sapply(valg, dbinom, size = 30, p = 0.6), 3))
+(v1 <- round(sapply(valg, dbinom, size = 30, p = 0.2), 3))
 
 # Combinamos df1 y v1 en un único data frame
 
