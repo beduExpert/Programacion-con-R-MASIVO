@@ -35,7 +35,7 @@ Descomposición multiplicativa
 comp <- decompose(AP, type = "multiplicative")
 ```
 
-Graficamos la serie original y las series de tendencia, estacionalidad, y componente aleatoria
+Graficamos la serie original, tendencia, estacionalidad, y componente aleatoria
 
 ```R
 plot(comp)
