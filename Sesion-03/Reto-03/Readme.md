@@ -2,7 +2,7 @@
 
 #### Objetivo
 - Poner en práctica los conocimientos de series de tiempo para poder manipularlas y así obtener información relevante
-- Implementar la descomposición **aditiva** y **multiplicativa**
+- Implementar la descomposición **multiplicativa**
 
 #### Requisitos
 - Haber llevado seguimiento de los ejercicios en clase
@@ -10,15 +10,9 @@
 
 #### Desarrollo 
 
-Utiliza los datos (AP), de la siguiente librería para realizar lo que se te pide 
+Utiliza los datos de producción de electricidad que se encuentran en el archivo csv
 
-```R
-library(forecast)
-data(AirPassengers)
-AP <- AirPassengers
-```
-
-1. Realiza la gráfica de la serie de tiempo 
-2. Descompón la serie de tiempo en aditiva y multiplicativa y realiza sus gráficas
-3. Realiza la gráfica de la descomposición aditiva con la tendencia y la estacionalidad utilizando el comando `lines`
-4. Realiza la gráfica de la descomposición multiplicativa con la tendencia y la estacionalidad utilizando el comando `lines`
+1. Importa los datos de producción de electricidad que se encuentra en el archivo cbe.csv a `R`
+2. Crea la serie de tiempo mensual de producción de electricidad en `R` a partir del año 1958
+3. Realiza la descomposición multiplicativa de la serie de tiempo y grafica la serie original junto con sus componentes (tendencia, estacionalidad y componente aleatoria)
+4. Realiza la gráfica tendencia y coloca la gráfica de tendencia x estacionalidad superpuesta a esta
