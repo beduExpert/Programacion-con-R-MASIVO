@@ -1,3 +1,4 @@
+library(dplyr) # Para usar el operador %>%
 data <- read.csv("../Sesion-03/Data/boxp.csv")
 head(data)
 names(data)
