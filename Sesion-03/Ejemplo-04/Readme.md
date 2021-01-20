@@ -12,20 +12,15 @@
 Comenzamos leyendo un fichero, el cual contiene información sobre dos grupos de control G1 y G2, a los cuales se les realizó  a cada uno una medición en 3 momentos diferentes C1, C2 y C3
 
 ```R
-data2 <- read.csv("../Sesion_03/boxp.csv")
+data <- read.csv("../Sesion_03/boxp.csv")
 ```
 
 Revisamos el encabezado del fichero y el nombre de sus variables o columnas
 ```R
-head(data2)
-names(data2)
+head(data)
+names(data)
 ```
 
-Vamos a realizar un cambio en la variable `Mediciones` para practicar 
-```R
-data <- mutate(data2, Mediciones = Mediciones*1.23)
-head(data)
-```
 Observamos algunos datos estadísticos sobre las variables
 ```R
 summary(data)
