@@ -13,15 +13,15 @@ En esta sesión estudiaremos temas relacionados con los siguientes puntos
 
 #### Ejemplos:
 
-- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-05/Ejemplo-01) Regresión lineal simple
-- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-05/Ejemplo-02) Regresión lineal múltiple
-- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-05/Ejemplo-03) Máquinas de vectores de soporte (Support Vector Machines, SVMs)
+- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Ejemplo-01) Regresión lineal simple
+- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Ejemplo-02) Regresión lineal múltiple
+- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Ejemplo-03) Máquinas de vectores de soporte (Support Vector Machines, SVMs)
 
 #### Retos de la sesión 5:
 
-- [Reto 1: Regresión lineal simple](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-05/Reto-01)
-- [Reto 2: SVM](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-05/Reto-02)
+- [Reto 1: Regresión lineal simple](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Reto-01)
+- [Reto 2: SVM](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Reto-02)
 
 #### Postwork de la sesión 5:
 
-- [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-05/Postwork)
+- [Postwork](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Postwork)
