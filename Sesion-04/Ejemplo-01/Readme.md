@@ -23,6 +23,12 @@ En `R` para calcular valores de las funciones de probabilidad, distribución o c
 
 Consideremos un experimento binomial con n = 30 pruebas idénticas e independientes, en donde la probabilidad de éxito en cada prueba es p = 0.2 (parámetros n = 30 y p = 0.2)
 
+1. Suponga que realiza un examen de opción múltiple con 30 preguntas, en donde
+cada pregunta tiene 5 posibles respuestas, pero solo una es correcta siempre. Si
+elige la respuesta al azar en cada pregunta, y estamos interesados en el número
+de respuestas correctas obtenidas al final ¿Podemos decir que estamos ante un
+experimento binomial?
+
 #### Función de probabilidad
 
 Para obtener P(X = 20), es decir, la probabilidad de observar 20 éxitos exactamente, en `R` ejecutamos
