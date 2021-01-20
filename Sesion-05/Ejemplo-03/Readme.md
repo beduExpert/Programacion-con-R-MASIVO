@@ -10,11 +10,10 @@
 - Haber estudiado el Prework para tener conocimientos previos sobre la sesión actual
 
 #### Desarrollo
-El siguiente es un ejemplo el cual se puede aplicar a diversas situaciónes que requieran de una clasificación desde una problemática en el campo de las finanzas para clasificar tipos de acciones, hasta el área de la salud para realizar clasificacón de celulas, la condicionante será siempre tener una variable que nos sirva para casificar, esta puedes ser de tipo factor de tal modo que categoricé un fénomeno.
 
 #### Clasificador de vectores de soporte
 
-Vamos a comenzar cargamndo el paquete `e1071` para ajustar máquinas de vectores de soporte
+Vamos a comenzar cargando el paquete `e1071` para ajustar máquinas de vectores de soporte
 
 ```R
 # install.packages("e1071") para instalarlo
