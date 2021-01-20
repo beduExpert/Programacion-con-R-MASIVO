@@ -1,13 +1,11 @@
 # Ejemplo 5. Diversos gráficos de tendencias: COVID-19
 
 #### Objetivo
-- Visualizar con diversos gráficos las tendencias de la enfermedad COVID-19 desde el inicio de la pandemia hasta la fecha actual en tiempo real.
-- Creación de data frames especializados
+- Visualizar con diversos gráficos las tendencias de la enfermedad COVID-19 desde el inicio de la pandemia hasta la fecha actual.
 - Creación de gráficos especializados
 
 #### Requisitos
 - Lectura de ficheros locales y desde algún repositorio en internet
-- Manejo de data frames con `dplyr`: `mutate`, `select`, `rename`, `filter`
 - Uso de `ggplot`
 
 #### Desarrollo
@@ -17,6 +15,7 @@ Al inicio es posible que no comprendas todo el código, trata de leerlo e ir asi
 Ahora se leerá el archivo C19Mexico.csv con los infectados y muertos acumulados para cada fecha creado previamente durante la sesión 2
 
 ```R
+# library(ggplot2)
 # install.packages("scales")
 library(scales) # Para mejorar la lectura de las etiquetas  en el eje de las x de tipo fecha
 
