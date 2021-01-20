@@ -3,7 +3,7 @@
 
 ### OBJETIVO
 
-- Continuar con el desarrollo de los postworks, en esta ocasión se utiliza la función `predict` para realizar predicciones de los resultados de partidos para una fecha determinada
+- Continuar con el desarrollo de los postworks; en esta ocasión se utiliza la función `predict` para realizar predicciones de los resultados de partidos para una fecha determinada
 
 #### REQUISITOS
 
