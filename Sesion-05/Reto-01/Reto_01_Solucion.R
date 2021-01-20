@@ -10,7 +10,7 @@
 
 # Establezca primero un directorio de trabajo donde
 # deberán estar los datos a importar
-
+rm(list = ls()) # Para eliminar objetos creados previamente
 datos <- read.csv("datoslineal.csv")
 attach(datos)
 
