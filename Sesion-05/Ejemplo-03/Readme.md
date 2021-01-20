@@ -20,7 +20,7 @@ Vamos a comenzar cargando el paquete `e1071` para ajustar máquinas de vectores 
 library(e1071) 
 ```
 
-Generamos observaciones correspondientes a dos clases, son de carácter aleatorio
+Generamos observaciones correspondientes a dos clases
 
 ```R
 set.seed(754)
