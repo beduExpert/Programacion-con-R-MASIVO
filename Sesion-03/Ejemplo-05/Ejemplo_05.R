@@ -1,7 +1,7 @@
 # Al inicio es posible que no comprendas todo el código, trata de leerlo e ir asimilando que es lo que realiza cada línea. 
 
+# library(ggplot2)
 # install.packages("scales")
-
 library(scales) # Para mejorar la lectura de las etiquetas  en el eje de las x de tipo fecha
 # Ahora vamos a leer nuestro archivo C19Mexico.csv con los infectados y muertos acumulados para cada fecha
 
