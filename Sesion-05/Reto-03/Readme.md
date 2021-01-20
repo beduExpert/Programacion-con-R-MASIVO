@@ -1,4 +1,4 @@
-# Reto 3. Clasificación usando máquinas de vectores de soporte
+# Reto 3. Máquinas de vectores de soporte (Compañía de tarjetas de crédito)
 
 #### Objetivo
 
