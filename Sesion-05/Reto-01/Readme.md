@@ -1,4 +1,4 @@
-# Reto 1. Regresión lineal 
+# Reto 1. Regresión lineal simple
 
 #### OBJETIVO 
 
