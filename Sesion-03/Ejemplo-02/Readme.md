@@ -12,11 +12,9 @@
 #### Desarrollo
 
 ```R
-library(dplyr)
 data2 <- read.csv("../Sesion_03/boxp.csv")
 head(data2)
 names(data2)
-data <- mutate(data2, Mediciones = Mediciones*1.23)
 ```
 
 Utilizando la función `hist`
