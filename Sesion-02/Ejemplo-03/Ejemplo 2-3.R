@@ -63,7 +63,7 @@ Smu <- mutate(Smu, Fecha = as.Date(Fecha, "%Y-%m-%d"), Muertos = as.numeric(Muer
 
 Scm <- merge(Sconf, Smu) # Unimos infectados y muertos acumulados para cada fecha
 
-mex <- filter(Scm, Country == "Mexico") # Seleccionamos sólo a México
+mex <- filter(Scm, Pais == "Mexico") # Seleccionamos sólo a México
 mex <- filter(mex, Infectados != 0) # Primer día de infectados
 
 # mex <- mutate(mex, Infectados = as.numeric(Infectados), Muertos = as.numeric(Muertos))
