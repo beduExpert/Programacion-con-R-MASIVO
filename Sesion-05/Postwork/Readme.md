@@ -3,13 +3,13 @@
 
 ### OBJETIVO
 
-- Continuar con el desarrollo del postwork, en esta ocasión se utiliza la función `predict` para realizar una predicción en los resultados de los equipos
+- Continuar con el desarrollo de los postworks, en esta ocasión se utiliza la función `predict` para realizar predicciones de los resultados de partidos para una fecha determinada
 
 #### REQUISITOS
 
 - Haber desarrollado los postworks anteriores
 - Cubrir los temas del prework
-- Repicar los ejemplos de la sección 
+- Replicar los ejemplos de la sesión
 
 #### DESARROLLO
 
