@@ -1,9 +1,11 @@
 
-# Ejemplo 2. MSV
+# Reto 2. Máquinas de vectores de soporte
 
 ### OBJETIVO 
 
-- Poner en práctica los recursos expuestos en los ejemplos de la sesión para poder aplicar las regresiones lineales ya sean simples o multiples
+- Crear un conjunto de entrenamiento y uno de prueba a partir de un conjunto de datos dado
+- Ajustar máquinas de vectores de soporte a un conjunto de entrenamiento
+- Llevar a cabo clasificación con un conjunto de prueba y crear la matriz de confusión
 
 #### REQUISITOS 
 
