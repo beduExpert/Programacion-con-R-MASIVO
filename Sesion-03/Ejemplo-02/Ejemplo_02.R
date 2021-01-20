@@ -1,10 +1,10 @@
-data2 <- read.csv("../Sesion-03/Data/boxp.csv")
-head(data2)
-names(data2)
+data <- read.csv("../Sesion-03/Data/boxp.csv")
+head(data)
+names(data)
 
 # Utilizando la función hist
 
-hist(data$Mediciones, breaks = seq(0,360, 20), 
+hist(data$Mediciones, breaks = seq(0,300, 20), 
      main = "Histograma de Mediciones",
      xlab = "Mediciones",
      ylab = "Frecuencia")
