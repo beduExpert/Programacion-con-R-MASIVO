@@ -1,14 +1,13 @@
-# Reto 3. Máquinas de vectores de soporte (Compañía de tarjetas de crédito)
+# Ejemplo 3. Máquinas de vectores de soporte (Compañía de tarjetas de crédito)
 
 #### Objetivo
 
-- Aplicar el conocimiento adquirido sobre máquinas de vectores de soporte para clasificar clientes potenciales de una compañía de tarjetas de crédito
+- Clasificar clientes potenciales de una compañía de tarjetas de crédito usando máquinas de vectores de soporte
 
 #### Requisitos
 
 - Tener instalado R y RStudio
-- Haber trabajado con el Prework y el Work
-- Haber replicado los ejercicios de la sesión
+- Haber trabajado con el Prework
 
 #### Desarrollo
 
