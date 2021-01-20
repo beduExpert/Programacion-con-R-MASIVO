@@ -1,5 +1,5 @@
 # Comenzamos leyendo un fichero, el cual contiene información sobre dos grupos de control G1 y G2, a los cuales se les realizó a cada uno una medición en 3 momentos diferentes C1, C2 y C3
-
+# library(dplyr) # para usar mutate
 data <- read.csv("../Sesion_03/boxp.csv")
 
 # Revisamos el encabezado del fichero y el nombre de sus variables o columnas
