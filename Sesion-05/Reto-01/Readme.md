@@ -2,7 +2,8 @@
 
 #### OBJETIVO 
 
-- Verificar si existe una relación entre dos variables cuantitativas mediante el uso de regresiones lineales utilizando gráficas que puedan determinar a naturaleza de los datos hablando en términos de su distribción muestral. 
+- Ajustar un modelo de regresión lineal simple a una muestra de datos, cuando parezca que existe una relación lineal entre las variables subyacentes
+- Obtener gráficas de diagnóstico, para decidir si es razonable asumir algunos supuestos necesarios para el modelo de regresión lineal simple
 
 #### REQUISITOS 
 
