@@ -1,4 +1,4 @@
-# Ejemplo 3. Máquinas de Vectores de Soporte
+# Ejemplo 4. Máquinas de Vectores de Soporte
 
 #### Clasificador de vectores de soporte
 
