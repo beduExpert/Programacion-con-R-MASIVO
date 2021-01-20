@@ -1,4 +1,4 @@
-# Reto 3. Clasificación usando máquinas de vectores de soporte
+# Reto 3. Máquinas de vectores de soporte (Compañía de tarjetas de crédito)
 
 # 1. Observe algunas características del data frame Default del paquete ISLR, con funciones tales como head, tail, dim y str.
 # 2. Usando ggplot del paquete ggplot2, realice el gráfico de dispersión con la variable balance en el eje x, la variable income en el eje y, distinga las distintas categorías en la variable default usando el argumento colour. Lo anterior para estudiantes y no estudiantes usando facet_wrap.
