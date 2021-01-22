@@ -17,6 +17,8 @@ En esta sesión estudiaremos temas relacionados con los siguientes puntos
 - [Reto 1:](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Reto-01) Regresión lineal simple
 - [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Ejemplo-02) Regresión lineal múltiple
 - [Ejemplo 3:](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Ejemplo-03) Máquinas de vectores de soporte (Compañía de tarjetas de crédito)
+
+Si nos da la vida tiempo: 
 - [Reto 2:](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Reto-02) Máquinas de vectores de soporte
 - [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-05/Ejemplo-04) Máquinas de vectores de soporte 
 
