@@ -9,7 +9,7 @@
 - Haber estudiado el Prework
 
 ####  Desarrollo
-En este ejemplo se hará la visualización, descomposición de series de tiempo además de poder determinar la tendencia de nuestros datos a lo largo de un periodo de tiempo determinado, las series de tiempo son recolectadas y sirven para estudios de tipo retrospectivo, además también se pueden realizar predicciónes a futuro. Todo cumulo de datos que tenga una variable temporar, distribuida por meses o intervalos de tiempo definidos se pueden representar de esta manera, aunque lo típico es que sea en meses y años. A continuación veras aplicaciones que te serán de mucha útilidad para desarrollar análisis temporales
+En este ejemplo se hará la visualización y descomposición de series de tiempo, además de poder determinar la tendencia de nuestros datos a lo largo de un periodo de tiempo determinado, las series de tiempo son recolectadas y sirven para estudios de tipo retrospectivo, además también se pueden realizar predicciones a futuro. A continuación verás aplicaciones que te serán de mucha utilidad.
  
 Vamos a comenzar con un ejemplo clásico, cargando el paquete `TSA`
 
