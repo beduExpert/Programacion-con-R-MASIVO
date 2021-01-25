@@ -1,5 +1,5 @@
  
-## Reto 1. Series de tiempo
+## Reto 1. Proceso AR(1)
 
 ### OBJETIVO 
 
