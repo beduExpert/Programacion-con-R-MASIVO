@@ -10,8 +10,8 @@
 
 ####  Desarrollo
 En este ejemplo se hará la visualización y descomposición de series de tiempo, además de poder determinar la tendencia de nuestros datos a lo largo de un periodo de tiempo determinado, las series de tiempo son recolectadas y sirven para estudios de tipo retrospectivo, además también se pueden realizar predicciones a futuro. A continuación verás aplicaciones que te serán de mucha utilidad.
- 
-Vamos a comenzar con un ejemplo clásico, cargando el paquete `TSA`
+
+#### Técnicas descriptivas: gráficas, tendencias y variación estacional
 
 ```R
 library(TSA)
@@ -22,8 +22,6 @@ plot(oilfilters, type = "l", ylab = "Ventas", xlab = "Tiempo",
 points(y = oilfilters, x = time(oilfilters),
 pch = as.vector(season(oilfilters)))
 ```
-
-#### Técnicas descriptivas: gráficas, tendencias y variación estacional
 
 ```R
 data(AirPassengers)
