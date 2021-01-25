@@ -183,7 +183,7 @@ title(main = "Predicción para la serie de producción de electricidad",
       ylab = "Producción de electricidad (GWh)")
 ```
 
-Inpirado en la siguiente bibliografía:
+Inspirado en la siguiente bibliografía:
 
 P. Cowpertwait & A. Metcalfe. (2009). Introductory Time Series with R. 233 Spring Street, New York, NY 10013, USA: Springer Science+Business Media, LLC.
 
