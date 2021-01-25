@@ -19,7 +19,6 @@ En esta sesión estudiaremos temas relacionados con los siguientes puntos:
 
 - [Reto 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-06/Reto-01) Proceso AR(1)
 - [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-06/Reto-02) Proceso ARIMA(1, 1, 1)
-
-#### Postwork de la sesión 6
+- [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-06/Reto-03) Gráfica de series de tiempo
 
 - [Postwork](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-06/Postwork)
