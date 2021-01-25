@@ -22,4 +22,4 @@ En esta sesión estudiaremos temas relacionados con los siguientes puntos:
 
 #### Postwork de la sesión 6
 
-- [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-06/Postwork)
+- [Postwork](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-06/Postwork)
