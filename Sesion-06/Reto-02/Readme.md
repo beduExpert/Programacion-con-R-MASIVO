@@ -3,7 +3,7 @@
 
 ### OBJETIVO 
 
-- Aplicar los conociemientos aprendidos en los ejemplos sobre series de tiempo en datos generados aleatoriamente
+- Ajustar un modelo a una serie de tiempo simulada, observar que tan adecuado es el ajuste y realizar algunas predicciones.
 
 #### REQUISITOS 
 
