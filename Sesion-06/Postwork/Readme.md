@@ -11,7 +11,7 @@
 
 #### Desarrollo
 
-Importa el conjunto de datos match.data.csv a `R` y realice lo siguiente:
+Importa el conjunto de datos match.data.csv a `R` y realiza lo siguiente:
 
 1. Agrega una nueva columna `sumagoles` que contenga la suma de goles por partido.
 
