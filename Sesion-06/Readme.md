@@ -11,9 +11,9 @@ En esta sesión estudiaremos temas relacionados con los siguientes puntos:
 
 #### Los ejemplos de esta sesión 6 son los siguientes:
 
-- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-06/Ejemplo-01) Ejemplos de series de tiempo y técnicas descriptivas
-- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-06/Ejemplo-02) Modelos estocásticos básicos, modelos estacionarios y predicción
-- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-06/Ejemplo-03) Modelos no estacionarios y predicción
+- [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-06/Ejemplo-01) Ejemplos de series de tiempo y técnicas descriptivas
+- [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-06/Ejemplo-02) Modelos estocásticos básicos, modelos estacionarios y predicción
+- [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-06/Ejemplo-03) Modelos no estacionarios y predicción
 
 #### Retos de la sesión 6:
 
