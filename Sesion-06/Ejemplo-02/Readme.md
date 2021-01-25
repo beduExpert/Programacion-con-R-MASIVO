@@ -11,7 +11,7 @@
 
 #### Desarrollo
 
-En el desarrollo de esté ejemplo se van a tratar tópicos como: Ruido blanco, caminatas aleatorias, operadores de rezago y diferencia. Los anteriores conceptos se relacionan con la apareición de fenomenologías que están relacionadas con modelos estócasticos, es decir que se tratará de determinar si una determinada situación es producto del azar o proviene de una situación causa y efecto.
+En el desarrollo de este ejemplo se van a tratar tópicos como: ruido blanco, caminatas aleatorias, operadores de rezago y diferencia. 
 
 Ruido Blanco y simulación en R
 
@@ -309,7 +309,7 @@ ts.plot(cbind(Elec.ts, elec.pred), lty = 1:2,
         sub = "Predicción de 36 meses")
  ```
  
-Inpirado en:
+Inspirado en:
 
 P. Cowpertwait & A. Metcalfe. (2009). Introductory Time Series with R. 233 Spring Street, New York, NY 10013, USA: Springer Science+Business Media, LLC.
 
