@@ -13,6 +13,7 @@ En este ejemplo se hará la visualización y descomposición de series de tiempo
 
 #### Técnicas descriptivas: gráficas, tendencias y variación estacional
 
+El primer dataset corresponde a las ventas mensuales de un filtro de aceite en diversos concesionarios para equipo de construcción.  
 ```R
 library(TSA)
 data(oilfilters); plot(oilfilters, type = "o", ylab = "Ventas", xlab = "Tiempo", main = "Ventas Mesuales ")
