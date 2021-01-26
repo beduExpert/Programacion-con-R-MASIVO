@@ -23,6 +23,7 @@ plot(oilfilters, type = "l", ylab = "Ventas", xlab = "Tiempo",
 points(y = oilfilters, x = time(oilfilters),
 pch = as.vector(season(oilfilters)))
 ```
+Ahora utilizaremos el dataset AirPAssengers, el cual contiene datos de serie de tiempo correspondiente a pasajeros aéreos.
 
 ```R
 data(AirPassengers)
