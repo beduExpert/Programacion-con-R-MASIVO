@@ -1,4 +1,4 @@
-# Ejemplo 1. Conexión entre RSTudio y Github
+# Ejemplo 1. Conexión entre RStudio y Github
 
 #### Objetivo
 - Hacer uso de los recursos de la nube de RStudio y Github
