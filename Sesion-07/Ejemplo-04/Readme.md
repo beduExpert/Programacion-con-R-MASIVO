@@ -1,7 +1,7 @@
 # Ejemplo 4. Lectura de archivos JSON, XML y tablas en HTML
 
 #### Objetivo
-- Realizar lectura de archivos JSON y XML para poder aplicar las funciones que se requieran de R y poder extraer información convirtiéndola en un data frame
+- Realizar lectura de archivos JSON y XML para poder aplicar las funciones que se requieran de `R` y poder extraer información convirtiéndola en un data frame
 
 #### Requisitos
 - librería `rjson`
@@ -9,7 +9,7 @@
 
 #### Desarrollo
 
-Comenzaremos instalando los paquetes necesarios para después cargarlos a R
+Comenzaremos instalando los paquetes necesarios para después cargarlos a `R`
 
 ```R
 #install.packages("rjson")   #Siempre usar comillas en el nombre del paquete
@@ -35,12 +35,12 @@ Finalmente ya que pudimos acceder al contenido del Json, también podemos realiz
 sqrt(JsonData$Mobile)
 ```
 
-Para entrar a las demás variables recuerda que puedas usar el operador de `$`, es decir `JsonData$`
+Para entrar a las demás variables recuerda que puedas usar el operador de `$`, es decir, `JsonData$`
 
 
 ### XML
 
-Ahora vamos a leer datos XML en R, utilizando un archivo XML alojado [aquí](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/xml/cd_catalog.xml)
+Ahora vamos a leer datos XML en `R`, utilizando un archivo XML alojado [aquí](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/xml/cd_catalog.xml)
 
 Lo primero es instalar y cargar el paquete `XML` y alojar el link en una variable `link`, para su lectura
 
