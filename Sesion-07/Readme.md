@@ -4,7 +4,7 @@
 #### Durante el transcurso de esta sesión serás capaz de desarrollar las siguientes capacidades de R 
 
 
-##### Aquí encontraras los ejemplos de la sesión 1.
+##### Aquí encontrarás los ejemplos de la sesión 1.
 
 - [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-07/Ejemplo-01) Conexión entre RStudio y Github
 - [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-07/Ejemplo-02) Conexión a una BDD con R
