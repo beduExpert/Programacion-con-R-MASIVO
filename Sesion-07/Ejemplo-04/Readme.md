@@ -97,7 +97,7 @@ Introducimos una dirección URL donde se encuentre una tabla
 
 ```R
 theurl <- "https://solarviews.com/span/data2.htm"
-file<-read_html(theurl)    # Leemos el html
+file <- read_html(theurl)    # Leemos el html
 ```
 Selecciona pedazos dentro del HTML para identificar la tabla
 ```R
