@@ -58,7 +58,7 @@ Observemos que el objeto `DataDB` es un data frame, por lo tanto ya es un objeto
 
 ```R
 class(DataDB)
-dim(DataBD)
+dim(DataDB)
 head(DataDB)
 ```
 
