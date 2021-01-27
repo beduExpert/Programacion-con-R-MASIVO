@@ -1,11 +1,14 @@
-# Ejemplo 2. Conexión a una BDD con R
+# Ejemplo 2. Conexión a una BDD con `R`
 
 
 #### Objetivos
-- Conectarse a una BDD utilizando R
-- Lectura de  una BDD en R
+- Conectarse a una BDD utilizando `R`
+- Lectura de  una BDD en `R`
 
 #### Requisitos
+
+- Tener instalados `R` y Rstudio
+- Haber estudiado el Prework
 
 #### Desarrollo
 
@@ -73,7 +76,7 @@ pop.3 <- pop.mean *3   # Operaciones aritméticas
 pop.3
 ```
 
-Incluso podemos hacer uso de otros comandos de busqueda aplicando la librería `dplyr` 
+Incluso podemos hacer uso de otros comandos de búsqueda aplicando la librería `dplyr` 
 
 ```R
 library(dplyr)
