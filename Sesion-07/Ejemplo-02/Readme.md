@@ -1,9 +1,9 @@
 # Ejemplo 2. Conexión a una BDD con R
 
 
-#### Objetivo
+#### Objetivos
 - Conectarse a una BDD utilizando R
-- 
+- Lectura de  una BDD en R
 
 #### Requisitos
 
@@ -17,7 +17,7 @@ CONFIGURACIONES DE CONEXIÓN: Hay 5 configuraciones necesarias para hacer una co
 - PWD : la contraseña correspondiente al UID proporcionado 
 - Port : debe establecerse en 3306 generalmente
 
-Comenzaremos instalando las librerias necesarias para realizar la conexión y lectura de la base de datos en RStudio, si previamente los tenías instalados omite la instalación, recuerda que solo necesitas realizarla una vez. 
+Comenzaremos instalando las librerías necesarias para realizar la conexión y lectura de la base de datos en RStudio, si previamente los tenías instalados omite la instalación, recuerda que solo necesitas realizarla una vez. 
 ```R
 install.packages("DBI")
 install.packages("RMySQL")
