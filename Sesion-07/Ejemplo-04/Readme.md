@@ -1,7 +1,7 @@
 # Ejemplo 4. Lectura de archivos JSON, XML y tablas en HTML
 
 #### Objetivo
-- Realizar lectura de archivos JSON y XML para poder aplicar las funciones que se requieran de R y poder extraer información convirtiéndolo en un data frame
+- Realizar lectura de archivos JSON y XML para poder aplicar las funciones que se requieran de R y poder extraer información convirtiéndola en un data frame
 
 #### Requisitos
 - librería `rjson`
