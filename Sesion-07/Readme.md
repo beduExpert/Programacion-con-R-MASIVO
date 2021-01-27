@@ -3,6 +3,10 @@
 
 #### Durante el transcurso de esta sesión serás capaz de desarrollar las siguientes capacidades de R 
 
+- Trabajar con RStudio desde la nube y enviar (traer) código a (desde) un repositorio de github
+- Conectarte a una BDD con `R`
+- Importar datos de una BDD a `R`
+- Manipular datos de una BDD en `R`
 
 ##### Aquí encontrarás los ejemplos y retos de la sesión 7.
 
