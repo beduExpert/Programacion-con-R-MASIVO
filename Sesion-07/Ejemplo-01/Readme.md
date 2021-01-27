@@ -20,4 +20,4 @@ Dentro de esta sesión podrás realizar una interacción entre RStudio y Github,
 
 - En caso contrario, para hacer el `pull`, mandar archivos desde Github hacía RStudio se hará de la siguiente manera:
 
-[![](gitrstudio.png)](https://www.loom.com/share/11de365fbfb14f8887939691df0d8300)
+[![](gitrstudio.png)](https://www.loom.com/share/e4b8d870e5ee476e886306300cf7f306)
