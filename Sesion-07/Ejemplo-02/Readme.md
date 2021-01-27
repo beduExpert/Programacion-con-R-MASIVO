@@ -11,7 +11,7 @@
 
 CONFIGURACIONES DE CONEXIÓN: Hay 5 configuraciones necesarias para hacer una conexión:
 
-- Driver : consulta la sección previa de controladores para obtener información sobre la configuración, se utilizaran los drivers de MySQL
+- Driver : consulta la sección previa de controladores para obtener información sobre la configuración, se utilizarán los drivers de MySQL
 - Server : una ruta de red al servidor de la base de datos 
 - UID : nombre de usuario utilizado para acceder al servidor MySQL 
 - PWD : la contraseña correspondiente al UID proporcionado 
