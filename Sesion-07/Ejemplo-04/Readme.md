@@ -69,7 +69,7 @@ xml_df <- data.frame(t(topxml), row.names= NULL)
 
 str(xml_df) # Observar la naturaleza de las variables del DF
 ```
-Convertiremos incluso las varialbes de `PRICE` y `YEAR` en datos numéricos para poder realizar operaciones con este dato
+Convertiremos incluso las variables de `PRICE` y `YEAR` en datos numéricos para poder realizar operaciones con este dato
 
 ```R
 xml_df$PRICE <- as.numeric(xml_df$PRICE) 
@@ -79,15 +79,15 @@ mean(xml_df$PRICE)
 mean(xml_df$YEAR)
 ```
 
-Todo esto se puede realizar en un sólo paso utilizando el siguiente comando
+Todo esto se puede realizar en un solo paso utilizando el siguiente comando
 ```R
-data_df <- xmlToDataFrame(url3)
+data_df <- xmlToDataFrame(link)
 head(data_df)
 ```
 
 ## Tablas en HTML 
 
-Comenzamos instalando el package `rvest` el cual nos permitirá realizar la lectura de la tabla en el HTML
+Comenzamos instalando el paquete `rvest` el cual nos permitirá realizar la lectura de la tabla en el HTML
 
 ```R
 install.packages("rvest")
@@ -101,7 +101,7 @@ file<-read_html(theurl)    # Leemos el html
 ```
 Selecciona pedazos dentro del HTML para identificar la tabla
 ```R
-tables<-html_nodes(file, "table")  
+tables <- html_nodes(file, "table")  
 ```
 Hay que analizar 'tables' para determinar cual es la posición en la lista que contiene la tabla, en este caso es la no. 4 
 
