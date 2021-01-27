@@ -1,7 +1,7 @@
 # Reto 3 Github -> RStudio
 
 
-Del script que se generó en el reto 2, deberas realizar las siguientes acciones
+Del script que se generó en el reto 2, deberás realizar las siguientes acciones
 
 - Tendras que subir el archivo al repositorio en github que se creo _Reto_Sesion_7_ 
 
