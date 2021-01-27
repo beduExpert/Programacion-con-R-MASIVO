@@ -4,12 +4,12 @@
 
 ### OBJETIVO
 
-- Realizar el alojamiento del fichero de un fichero `.csv` a una base de datos (BDD), en un local host de Mongodb a traves de R
+- Realizar el alojamiento del fichero de un fichero `.csv` a una base de datos (BDD), en un local host de Mongodb a traves de `R`
 
 #### REQUISITOS
 
 - Mongodb Compass
-- librerias `mongolite`
+- librerías `mongolite`
 - Nociones básicas de manejo de BDD
 
 #### DESARROLLO
