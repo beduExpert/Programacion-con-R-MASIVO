@@ -23,7 +23,5 @@ Utilizando el manejador de BDD _Mongodb Compass_ (previamente instalado), deber�
 
 - Realiza una consulta utilizando la sintaxis de **Mongodb**, en la base de datos para conocer el número de goles que metió el Real Madrid el 20 de diciembre de 2015 y contra que equipo jugó, ¿perdió ó fue goleada?
 
-- Agrega el dataset de `mtcars` a la misma BDD
-
 - Por último, no olvides cerrar la conexión con la BDD
  
