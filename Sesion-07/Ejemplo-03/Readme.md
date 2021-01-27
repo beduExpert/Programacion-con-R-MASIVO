@@ -1,18 +1,18 @@
 # Ejemplo 3. 
 
 #### Objetivo
-- Utilizar la libreria `dplyr` y `pool` para hacer queries a **MySQL**
+- Utilizar la librería `dplyr` y `pool` para hacer queries a **MySQL**
 
 #### Requisitos
-- Libreria `dplyr`
-- Libreria `pool`
-- Libreria `DBI`
+- Librería `dplyr`
+- Librería `pool`
+- Librería `DBI`
 
 #### Desarrollo
 
-Ahora utilizaremos otra opción para realizar queries a una BDD con la ayuda de dplyr que sustituye a `SELECT` en **MySQL**  y el operador `%>%`, hay que recordar que con este comando también podemos realizar busquedas  de forma local. 
+Ahora utilizaremos otra opción para realizar queries a una BDD con la ayuda de dplyr que sustituye a `SELECT` en **MySQL**  y el operador `%>%`, hay que recordar que con este comando también podemos realizar búsquedas  de forma local. 
 
-Comenzamos instalando las paqueterias necesarias y cargándolas a R
+Comenzamos instalando las paqueterías necesarias y cargándolas a R
 ```R
 install.packages("pool")
 install.packages("dbplyr")
@@ -31,7 +31,7 @@ my_db <- dbPool(
 )
 ```
 
-Para ver el contenido de la BDD y realizar una busqueda se procede de la siguiente manera
+Para ver el contenido de la BDD y realizar una búsqueda se procede de la siguiente manera
 ```R
 dbListTables(my_db)
 
@@ -44,7 +44,7 @@ my_db %>% tbl("Country") %>% head(5)
 my_db %>% tbl("CountryLanguage") %>% head(5)
 ```
 
-Otra forma de generar una busqueda será con la libreria `DBI`, utilizando el comando  `dbSendQuery`
+Otra forma de generar una búsqueda será con la librería `DBI`, utilizando el comando  `dbSendQuery`
 
 ```R
 library(DBI)
