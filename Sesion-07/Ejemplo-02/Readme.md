@@ -58,6 +58,7 @@ Observemos que el objeto `DataDB` es un data frame, por lo tanto ya es un objeto
 
 ```R
 class(DataDB)
+dim(DataBD)
 head(DataDB)
 ```
 
@@ -72,7 +73,7 @@ pop.3 <- pop.mean *3   # Operaciones aritméticas
 pop.3
 ```
 
-Incluso podemos hacer unos de otros comandos de busqueda aplicando la libreria `dplyr` 
+Incluso podemos hacer uso de otros comandos de busqueda aplicando la librería `dplyr` 
 
 ```R
 library(dplyr)
