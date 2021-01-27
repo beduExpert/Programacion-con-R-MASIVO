@@ -15,8 +15,8 @@
 ##### Retos de la sesión 1.
 
 - [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/blob/master/Sesion-07/Reto-02) Extracción de tablas en un HTML
-- [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/blob/master/Sesion-07/Reto-03) Vinculación entre Github -> RStudio
+- [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-07/Reto-03) Vinculación entre Github -> RStudio
 
 #### Postwork
 
-- [Postwork](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-07/Postwork) Conexión con Mongodb
+- [Postwork](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-07/Postwork) Conexión con Mongodb
