@@ -189,4 +189,4 @@ table(true = dat[-train, "y"],
 
 Inspirado en: 
 
-[G. James et al., An Introduction to Statistical Learning: with Applications in R, Springer Texts in Statistics, DOI 10.1007/978-1-4614-7138-7_9, © Springer Science+Business Media New York 2013](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+[G. James et al., An Introduction to Statistical Learning: with Applications in R, Springer Texts in Statistics, DOI 10.1007/978-1-4614-7138-7_9, © Springer Science+Business Media New York 2013](https://www.statlearning.com/)
