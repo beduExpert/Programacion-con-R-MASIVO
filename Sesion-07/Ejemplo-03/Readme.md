@@ -37,7 +37,7 @@ dbListTables(my_db)
 
 # Obtener los primeros 5 registros de Country
 
-my_db %>% tbl("Country") %>% head(5)
+my_db %>% tbl("Country") %>% head(5) # library(dplyr)
 
 # Obtener los primeros 5 registros de CountryLanguage
 
