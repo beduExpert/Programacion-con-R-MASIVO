@@ -1,4 +1,4 @@
-# Ejemplo 7. Funciones `na.omit` y `complete.cases`
+# Ejemplo 6. Funciones `na.omit` y `complete.cases`
 
 #### Objetivo
 
