@@ -1,4 +1,4 @@
-# Sesion 1. Introducción a R y Software (Github, Tipos de Datos)
+# Sesion 1. Introducción a R y Software
 
 Conocer las nociones básicas para poder manipular data sets, poder realizar lectura de datos y posteriormente realizar análisis exploratorios.
 
