@@ -1,9 +1,10 @@
 # Ejemplo 01. Ambiente de trabajo UI y Server
 
 #### Objetivo
+
+- Crear un dashboard simple para mostrar gráficas de dispersión en una webApp
 - Entender el entorno de trabajo con la libreria `Shiny`
 - Funciones básicas de la UI y del Server
-- Presentar gráficas de dispersión en una webApp
 
 #### Requisitos
 - Tener instalada y cargada la libreria `Shiny`
@@ -12,13 +13,13 @@
 
 #### Desarollo
 
-Durante esta sesión serás capaz de realizar una webApp con el uso de la libreria de `Shiny`, está es útil para presentar reportes. 
+Durante esta sesión serás capaz de realizar una webApp con el uso de la libreria de `Shiny`, está es útil para presentar reportes con los resultados destacados de nuestra investigación. Existen dos formas para realizar webApp, comenzaremos con dos archivos separados para tener un mayor orden:
 
 Lo primero que se debe hacer es generar un arhivo Shiny Web App en RStudio
 
 ![image](imagenes/1.1.png)
 
-Hay que colocar un nombre de nuestra Web App, además de seleccionar multiple file (esto creará dos archivos ui.R y server.R) y la ruta donde se almacenará 
+Hay que colocar un nombre de nuestra Web App, además de seleccionar _Mltiple File_ (esto creará dos archivos ui.R y server.R) y la ruta donde se almacenará 
 
 ![](imagenes/1.2.png)
 
@@ -34,7 +35,7 @@ En la siguiente imágen podemos apreciar el ejemplo indicado anteriormente, ejec
 <img src="imagenes/1.4.png" width="650" height="450"> 
 </p>
 
-A continuación se creará una webApp desde cero, se deben borrar todos los comentarios para dejar solamente las siguientes líneas de código
+A continuación se creará una webApp desde cero, se deben borrar todos los comentarios para dejar solamente las siguientes líneas de código en el archivo `ui.R`
 
 ```R
 library(shiny)
@@ -44,7 +45,7 @@ shinyUI(
 ```
 
 
-En el archivo `ui.R`, dentro de la fución `shinyUI` colocaremos las siguientes instrucciones para poder visualizar las partes de nuesta webApp, posteriormente ejecuta el código para que observes el resultado y puedas ubicar donde se localiza gráficamente cada sentencia
+Ahora en `ui.R`, dentro de la fución `shinyUI` colocaremos las siguientes instrucciones para poder visualizar las partes de nuestra webApp, posteriormente ejecuta el código para que observes el resultado y puedas ubicar donde se localiza gráficamente cada sentencia
 
 ```R
 library(shiny)
@@ -60,7 +61,7 @@ shinyUI(
 ```
 
 
-Con lo anterior ya pudiste observar la distrubución de los objetos dentro de la webApp. Ahora vamos a crear una donde se puedam observar algunas gráficas de dispersión para las variables del dataset `mtcars`. 
+Con lo anterior ya pudiste observar la distrubución de los objetos dentro de la webApp. Ahora vamos a crear webApp una donde se puedan observar algunas gráficas de dispersión para las variables del dataset `mtcars`. 
 
 En el archivo **`ui.R`** realiza los siguientes cambios
 
@@ -72,8 +73,8 @@ shinyUI(
         headerPanel ("Aplicacion simple con Shiny"),
         sidebarPanel (
             p("Vamos a crear plots con el dataset de 'mtcars'"),
-            selectInput("x", "Selecciona el eje de las X",
-                        choices = colnames(mtcars) )
+            selectInput("x", "Selecciona el eje de las X",      # Se indica que la variable "x" será la de entrada
+                        choices = colnames(mtcars) )            # Sirve para desplegar las variables a graficar en este caso son todas las de mtcars
                     ),
         mainPanel (h3(textOutput("output_text")), 
                    plotOutput("output_plot")
@@ -82,17 +83,22 @@ shinyUI(
         )
 ```
  
-Ahora en el archivo **`server.R`**, debes borrar todos los comentarios, de tal modo que quede de la siguiente forma, el código siguiente define los argumentos de `imput` y `output` qué se visualizaran en la *UI*, en este caso se harán los gráficos correlación entre `mpg` y el resto de variables de `mtcars` 
+Ahora en el archivo **`server.R`**, debes borrar todos los comentarios, de tal modo que quede de la siguiente forma, el código siguiente define los argumentos de `input` y `output` qué se visualizaran en la *UI*, ahora se harán los gráficos correlación entre `mpg` y el resto de variables de `mtcars`. (Con _renderText_ y _renderPlot_ se "renderizará" el texto y la gráfica respectivamente)
 
 ```R
 library(shiny)
 
 shinyServer(function(input, output) { 
-    output$output_text <- renderText(paste("Grafico de mpg ~ ", input$x))
+    output$output_text <- renderText(paste("Grafico de mpg ~ ", input$x))   # input$x es la selección que se hizo en la UI
     output$output_plot <- renderPlot(plot(as.formula(paste("mpg~", input$x)), 
                                           data = mtcars))
                                     }
             )
 ```
 
-Ejecula la webApp y observa el resultado que se generó con el dódigo, ¿Qué otros escenarios se te ocurren?
+Tu resultado debería ser como la siguiente imagen
+<p align="center">
+<img src="imagenes/1.5.png" width="650" height="450"> 
+</p>
+
+Ejecula la webApp y observa el resultado que se generó con el código, ¿Qué otros escenarios se te ocurren?
