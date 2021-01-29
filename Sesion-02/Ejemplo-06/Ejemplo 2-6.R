@@ -1,4 +1,4 @@
-# Ejemplo 7. Funciones `na.omit` y `complete.cases`
+# Ejemplo 6. Funciones `na.omit` y `complete.cases`
 
 # Ahora vamos a considerar el conjunto de datos `airquality`, observamos primero
 # algunas de sus filas
