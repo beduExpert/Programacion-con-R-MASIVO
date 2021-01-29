@@ -1,6 +1,6 @@
 # Sesion 2. Manipulación de datos en `R`
 
-Se estudian conceptos básicos de estadística para contextualizar al alumno y sentar las bases de la estructura del curso. Se proporcionan algunas herramientas básicas y muy útiles en la práctica para que el alumno pueda importar datos a `R` desde diferentes tipos de archivos, con estos datos en `R`, podrá filtrar filas, seleccionar variables, transformar variables y en general manipular los datos para llevarlos a una forma deseada.
+Se estudian conceptos básicos de estadística para contextualizar al alumno y sentar las bases de la estructura del curso. Se proporcionan algunas herramientas básicas y muy útiles en la práctica para que el alumno pueda importar datos a `R`, con estos datos en `R`, podrá filtrar filas, seleccionar variables, transformar variables y en general manipular los datos para llevarlos a una forma deseada.
 
 #### En esta sesión estudiaremos temas relacionados con los siguientes puntos
 
@@ -8,7 +8,7 @@ Se estudian conceptos básicos de estadística para contextualizar al alumno y s
 - Funciones para observar algunas características de objetos en `R`
 - Funciones para filtrar filas, seleccionar variables y transformar un data frame en `R`
 - Funciones para combinar data frames en `R` por filas o por columnas
-- Importación de datos a `R` desde diferentes tipos de archivos
+- Importación de datos a `R`
 
 #### Los ejemplos y retos de esta sesión 2 son los siguientes:
 
@@ -22,8 +22,6 @@ Se estudian conceptos básicos de estadística para contextualizar al alumno y s
 - [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-04) Funciones `cbind`, `rbind` (manipulación de data frames)
 - [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-05) Funciones `apply`, `lapply` y `do.call`
 - [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-03) Lectura de datos y usos de `dplyr`
-
-- [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-06) Lectura de JSON y XML
 - [Ejemplo 7](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-07) Funciones `na.omit` y `complete.cases`
 
 ## Postwork
