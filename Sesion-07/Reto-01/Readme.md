@@ -14,7 +14,7 @@ Ahora vas a practicar los conocimientos adquiridos en esta sesión principalment
 
 - Crea un repositorio en Github llamado `Reto_Sesion_7` 
 
-- Crea un **Project** llamado `Reto_Sesion_07` dentro de RStudio utilizando tu cuenta de RStudio, que esté ligado al repositorio recién creado
+- Crea un **Project** llamado `Reto_Sesion_07` dentro de RStudio Cloud utilizando tu cuenta de RStudio, que esté ligado al repositorio recién creado
 
 - Ahora en RStudio crea un script llamado `queries.R`en donde se conecte a la BDD `shinydemo`
 
