@@ -22,7 +22,7 @@ Se estudian conceptos básicos de estadística para contextualizar al alumno y s
 - [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-04) Funciones `cbind`, `rbind` (manipulación de data frames)
 - [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-05) Funciones `apply`, `lapply` y `do.call`
 - [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Reto-03) Lectura de datos y usos de `dplyr`
-- [Ejemplo 7](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-07) Funciones `na.omit` y `complete.cases`
+- [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-02/Ejemplo-06) Funciones `na.omit` y `complete.cases`
 
 ## Postwork
 
