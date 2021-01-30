@@ -19,7 +19,7 @@ Utiliza el data frame de ventas de libros por Amazon y realiza las siguientes ac
 2. Calcula el data frame transpuesto, asígnale el nombre de tAmazon y conviértelo en un data frame 
 (Hint: consulta la ayuda sobre las funciones `t` y `as.data.frame`)
 
-3. Usa el nombre de los libros como el nombre de las columnas
+3. Usa el nombre de los libros como el nombre de las columnas (Hint: consulta la documentación de `names`, tienes que hacer algo similar a `names(dataframe) <- vector de nuevos nombres`)
 
 4. ¿Cúal es el libro de menor y mayor precio?
 
