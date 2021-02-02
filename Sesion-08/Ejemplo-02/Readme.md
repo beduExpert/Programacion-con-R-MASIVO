@@ -1,8 +1,11 @@
 # Ejemplo 2. Creación de un Dashboard con pestañas y data tables
 
 #### Objetivo
+- Agregar pestañas al dashboard
+- Agregar elementos
 
 #### Requisitos
+- Crear un dashboar simple
 
 #### Desarrollo
 
