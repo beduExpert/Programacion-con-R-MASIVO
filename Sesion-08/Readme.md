@@ -2,7 +2,7 @@
 
 
 #### Durante el transcurso de esta sesión serás capaz de desarrollar las siguientes capacidades de R 
-- Realizar la presentación de gráficas, tablas, data tables, imágenes, queries, entre otras aplicaciones de R en dashboards, haciendolo mediante una visualización atractiva y pudiendo compartir tu información con cualquier actor clave para si manejo.  
+- Realizar la presentación de gráficas, tablas, data tables, imágenes, queries, entre otras aplicaciones de R en dashboards, haciendolo mediante una visualización atractiva y pudiendo compartir tu información con cualquier actor clave para su manejo.  
 
 ##### Aquí encontraras los ejemplos de la sesión 1.
 
