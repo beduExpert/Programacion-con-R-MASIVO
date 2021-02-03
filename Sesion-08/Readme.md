@@ -4,7 +4,7 @@
 #### Durante el transcurso de esta sesión serás capaz de desarrollar las siguientes capacidades de R 
 - Realizar la presentación de gráficas, tablas, data tables, imágenes, queries, entre otras aplicaciones de R en dashboards, haciéndolo mediante una visualización atractiva y pudiendo compartir tu información con cualquier actor clave para su manejo.  
 
-##### Aquí encontraras los ejemplos de la sesión 1.
+##### Aquí encontrarás los ejemplos de la sesión 1.
 
 - [Ejemplo 1](https://github.com/beduExpert/Programacion-con-R-Santander/blob/master/Sesion-08/Ejemplo-01) Ambiente de trabajo UI y Server
 
