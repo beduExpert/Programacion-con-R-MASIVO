@@ -19,7 +19,7 @@ Lo primero que se debe hacer es generar un arhivo Shiny Web App en RStudio
 
 ![image](imagenes/1.1.png)
 
-Hay que colocar un nombre de nuestra Web App, además de seleccionar _Mltiple File_ (esto creará dos archivos ui.R y server.R) y la ruta donde se almacenará 
+Hay que colocar un nombre de nuestra Web App, además de seleccionar _Multiple File_ (esto creará dos archivos ui.R y server.R) y la ruta donde se almacenará 
 
 ![](imagenes/1.2.png)
 
