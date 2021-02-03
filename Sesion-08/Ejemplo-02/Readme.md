@@ -40,41 +40,47 @@ shinyUI(
 Esto podemos organizarlo de mejor manera agregando pestañas con el comando `tabsetPanel` y con `tabPanel`para cada pestaña indivudual
 
 ```R
-library(shiny)
+library(class)
+library(dplyr)
+library(stringr)
 
+library(shiny)
+#install.packages("shinydashboard")
+library(shinydashboard)
 
 shinyUI(
     pageWithSidebar(
-        headerPanel("Aplicacion basica con Shiny"),
+        headerPanel("Aplicacion básica con Shiny"),
         sidebarPanel(
             p("Crear plots con el DF 'auto'"), 
             selectInput("x", "Seleccione el valor de X",
                         choices = names(mtcars))
         ),
-       
-       mainPanel(
+        mainPanel(
+            
           
-    #Agregando pestañas     # <-----------
-tabsetPanel(              # <-----------
-        tabPanel("Plots",   #Pestaña de Plots  <-----------
+    #Agregando pestañ±as
+    tabsetPanel(
+        tabPanel("Plots",                   #Pestaña de Plots <---------
                  h3(textOutput("output_text")), 
-                 plotOutput("output_plot"),
-                 ),
+                 plotOutput("output_plot"), 
+        ),
         
-        tabPanel("imágenes",  #Pestaña de imágenes <-----------
+        tabPanel("imágenes",                #Pestaña de imágenes  <---------
                  img( src = "cor_mtcars.png", 
                       height = 450, width = 450)
-                ), 
+        ), 
         
-        #Aprovehamos y agregamos las siguientes pestañas # <-----------
-         tabPanel("Summary", verbatimTextOutput("summary")),    # salida del Summary <-----------
-         tabPanel("Table", tableOutput("table")),               # salida de la tabla <-----------
-         tabPanel("Data Table", dataTableOutput("datatable"))   # salida del data table <-----------
+        tabPanel("Summary", verbatimTextOutput("summary")),     # <--------- Summary
+        tabPanel("Table", tableOutput("table")),                # <--------- Table
+        tabPanel("Data Table", dataTableOutput("data_table"))   # <--------- Data table
     )
 )
 )
 
 )
+
+
 
 ```
 
