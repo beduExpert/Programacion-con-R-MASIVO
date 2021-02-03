@@ -1,4 +1,4 @@
-# Sesion 8. Dashboards con Shiny - Entorno GUI
+# Sesión 8. Dashboards con Shiny - Entorno GUI
 
 
 #### Durante el transcurso de esta sesión serás capaz de desarrollar las siguientes capacidades de R 
