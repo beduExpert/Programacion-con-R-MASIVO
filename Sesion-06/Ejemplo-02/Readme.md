@@ -7,7 +7,7 @@
 #### Requisitos
 
 - Tener instalado R y RStudio
-- Haber estudiado el Prework
+- Haber estudiado el prework
 
 #### Desarrollo
 
@@ -120,7 +120,7 @@ x.ar$ar
 x.ar$ar + c(-2, 2)*sqrt(x.ar$asy.var)
 ```
 
-Serie de temperatura global: Ajuste de un modelo AR
+Serie de temperaturas globales, expresadas como anomalías de las medias mensuales: Ajuste de un modelo AR
 
 ```R
 Global <- scan("global.txt")
