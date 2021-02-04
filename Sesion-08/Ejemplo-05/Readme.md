@@ -9,7 +9,7 @@
 - Analizar el código siguiente
 
 #### Desarrollo
-Se comenzará utilizando el código siguiente ahora en un solo archivo `app.R` a diferencia de los ejemplos anteriores esta webApp se correra en un sólo fichero para que puedas observar la diferencia entre ambas formas de realizar las webApps.
+Se comenzará utilizando el código siguiente ahora en un solo archivo `app.R` a diferencia de los ejemplos anteriores esta webApp se correrá en un solo fichero para que puedas observar la diferencia entre ambas formas de realizar las webApps.
 
 ```R
 ## app.R ##
