@@ -61,7 +61,7 @@ shinyUI(
 ```
 
 
-Con lo anterior ya pudiste observar la distribución de los objetos dentro de la webApp. Ahora vamos a crear una webApp una donde se puedan observar algunas gráficas de dispersión para las variables del dataset `mtcars`. 
+Con lo anterior ya pudiste observar la distribución de los objetos dentro de la webApp. Ahora vamos a crear una webApp; una donde se puedan observar algunas gráficas de dispersión para las variables del dataset `mtcars`. 
 
 En el archivo **`ui.R`** realiza los siguientes cambios
 
