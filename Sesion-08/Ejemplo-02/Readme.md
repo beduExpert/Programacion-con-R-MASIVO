@@ -91,7 +91,7 @@ library(shiny)
 
 shinyServer(function(input, output) {
 
- output$output_text <- renderText(paste("mpg~", input$x))   #Titulo del main Panel
+ output$output_text <- renderText(paste("mpg~", input$x))   #Título del main Panel
  
  #Gráficas                       <----------
  output$output_plot <- renderPlot( plot( as.formula(paste("mpg ~", input$x)),
