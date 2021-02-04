@@ -22,7 +22,7 @@ Para este postwork genera un dashboard en un solo archivo `app.R`, para esto rea
 
 - Crea un dashboard donde se muestren los resultados con 4 pestañas:
    
-- Una con las gráficas de barras, donde en el eje de las x se muestren los goles de local y visitante con un menu de selección, con una geometria de tipo barras además de hacer un facet_wrap con el equipo visitante
+- Una con las gráficas de barras, donde en el eje de las x se muestren los goles de local y visitante con un menu de selección, con una geometría de tipo barras además de hacer un facet_wrap con el equipo visitante
    
 - Realiza una pestaña donde agregues las imágenes de las gráficas del postwork 3
     
@@ -30,7 +30,7 @@ Para este postwork genera un dashboard en un solo archivo `app.R`, para esto rea
     
 - Por último en otra pestaña agrega las imágenes de las gráficas de los factores de ganancia mínimo y máximo
 
-Nota: recuerda que si tienes problemas con el codificado guarda tu archivo `app.R` con la codificacion `UTF-8`
+Nota: recuerda que si tienes problemas con el codificado guarda tu archivo `app.R` con la codificación `UTF-8`
     
 
 
