@@ -276,7 +276,7 @@ acf(resid(best.arma), main = "")
 title(main = "Serie de residuales del modelo ARMA(2, 0) ajustado",
       sub = "Serie de residuales del modelo de regresión ajustado a los datos de electricidad")
 
-###
+#### Las siguientes predicciones aún pueden ser mejoradas con un modelo "más adecuado"
 
 new.time <- seq(length(Elec.ts)+1, length = 36)
 new.data <- data.frame(Time = new.time, Imth = rep(1:12, 3))
