@@ -7,7 +7,7 @@
 #### Requisitos
 
 - Tener instalado R y RStudio
-- Haber trabajado con el Prework y el Work
+- Haber trabajado con el prework y el work
 
 #### Desarrollo
 
