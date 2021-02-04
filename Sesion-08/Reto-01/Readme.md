@@ -1,4 +1,4 @@
-# Reto 1. Crear un Dashboard con pestañas
+# Reto 1. Crear un dashboard con pestañas
 
 #### Objetivo 
 Repasar los conceptos de los ejemplos de la sesión para desarrollar un dashboard simple
