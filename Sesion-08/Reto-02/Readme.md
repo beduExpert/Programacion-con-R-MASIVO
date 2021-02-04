@@ -10,7 +10,7 @@
 
 #### Desarrollo
 
-Generar un dashboard dinámico que muestre de manera dinámica los histogramas de las variables 
+Generar un dashboard que muestre de manera dinámica los histogramas de las variables 
 
 - `Ozone`, `Solar.R`, `Wind`, `Temp`, `Month` y `Day`, para el dataset `airquality` 
 - `carat`, `depth` y `price`, para el dataset `diamonds` de la libreria `ggplot2`
