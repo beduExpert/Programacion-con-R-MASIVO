@@ -10,11 +10,11 @@
 
 
 - [Ejemplo 2](https://github.com/beduExpert/Programacion-con-R-Santander/blob/master/Sesion-08/Ejemplo-02) Creación de un Dashboard con pestañas y data tables
-- [Reto 1](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-08/Reto-01) Crear un Dashboard con pestañas
+- [Reto 1](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-08/Reto-01) Crear un Dashboard con pestañas
 
 
 - [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-Santander/blob/master/Sesion-08/Ejemplo-03) Dashboard dinámico
-- [Reto 2](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-08/Reto-02) Dashboard Dinámico
+- [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-08/Reto-02) Dashboard Dinámico
 
 
 - [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/blob/master/Sesion-08/Ejemplo-04) Dashboard condicional
@@ -24,7 +24,7 @@
 
 
 - [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/blob/master/Sesion-08/Ejemplo-06) Publica tu dashboard
-- [Reto 3](https://github.com/beduExpert/Programacion-con-R-2020/tree/main/Sesion-08/Reto-03) Generar un dashboard de tipo profesional
+- [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-08/Reto-03) Generar un dashboard de tipo profesional
 
 #### Postwork
 
