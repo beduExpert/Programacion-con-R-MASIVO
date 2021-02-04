@@ -37,7 +37,7 @@ shinyUI(
 
 ```
 
-Esto podemos organizarlo de mejor manera agregando pestañas con el comando `tabsetPanel` y con `tabPanel`para cada pestaña indivudual
+Esto podemos organizarlo de mejor manera agregando pestañas con el comando `tabsetPanel` y con `tabPanel`para cada pestaña individual
 
 ```R
 library(class)
