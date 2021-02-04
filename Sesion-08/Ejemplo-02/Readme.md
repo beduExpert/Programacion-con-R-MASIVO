@@ -5,7 +5,7 @@
 - Agregar elementos
 
 #### Requisitos
-- Crear un dashboar simple
+- Crear un dashboard simple
 
 #### Desarrollo
 
