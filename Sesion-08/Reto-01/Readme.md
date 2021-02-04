@@ -8,7 +8,7 @@ Repasar los conceptos de los ejemplos de la sesión para desarrollar un dashboar
 - Haber realizado los ejercicios de la sesión
 
 #### Desarrollo
-Basandote en los ejemplos genera el dashboard con el dataset de `iris` en el que se muestre por pestañas: 
+Basándote en los ejemplos, genera el dashboard con el dataset de `iris` en el que se muestre por pestañas: 
 
 - El gráfico de dispersión de las variables numéricas
 - La imagen generada por un diagrama de gradiente de la correlación entre las variables del dataset 
