@@ -73,11 +73,7 @@ Elec.ts <- ts(CBE[, 3], start = 1958, freq = 12)
 Beer.ts <- ts(CBE[, 2], start = 1958, freq = 12)
 Choc.ts <- ts(CBE[, 1], start = 1958, freq = 12)
 
-Electricidad <- Elec.ts
-Cerveza <- Beer.ts
-Chocolate <- Choc.ts
-
-plot(cbind(Electricidad, Cerveza, Chocolate), 
+plot(cbind(Elec.ts, Beer.ts, Choc.ts), 
      main = "Producción de Chocolate, Cerveza y Electricidad", 
      xlab = "Tiempo",
      sub = "Enero de 1958 - Diciembre de 1990")
