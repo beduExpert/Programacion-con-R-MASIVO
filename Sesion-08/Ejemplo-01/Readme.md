@@ -3,7 +3,7 @@
 #### Objetivo
 
 - Crear un dashboard simple para mostrar gráficas de dispersión en una webApp
-- Entender el entorno de trabajo con la libreria `Shiny`
+- Entender el entorno de trabajo con la librería `Shiny`
 - Funciones básicas de la UI y del Server
 
 #### Requisitos
