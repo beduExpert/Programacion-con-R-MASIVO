@@ -41,7 +41,7 @@ shinyUI(fluidPage(
 Para el archivo `server.R` pega el siguiente código, además trata de identificar que hacen cada uno de los comandos que se presentan a continuación:
 
 ```R 
-# Generación de un dashboard de tipo de selección Dinámica
+# Generación de un dashboard de tipo de selección dinámica
 
 library(shiny)
 
