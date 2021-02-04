@@ -14,7 +14,7 @@
 
 
 - [Ejemplo 3](https://github.com/beduExpert/Programacion-con-R-Santander/blob/master/Sesion-08/Ejemplo-03) Dashboard dinámico
-- [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-08/Reto-02) Dashboard Dinámico
+- [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-08/Reto-02) Dashboard dinámico
 
 
 - [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/blob/master/Sesion-08/Ejemplo-04) Dashboard condicional
