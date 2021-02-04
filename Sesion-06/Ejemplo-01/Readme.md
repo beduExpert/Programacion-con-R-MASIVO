@@ -79,7 +79,7 @@ plot(cbind(Elec.ts, Beer.ts, Choc.ts),
      sub = "Enero de 1958 - Diciembre de 1990")
 ```
 
-Serie de temperatura global
+Serie de temperaturas globales, expresadas como anomalías de las medias mensuales
 
 ```R
 Global <- scan("global.txt")
