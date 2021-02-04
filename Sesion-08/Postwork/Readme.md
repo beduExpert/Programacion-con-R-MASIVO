@@ -14,7 +14,7 @@
 
 #### DESARROLLO
 
-Para este postwork genera un dashboar en un solo archivo `app.R`, para esto realiza lo siguiente: 
+Para este postwork genera un dashboard en un solo archivo `app.R`, para esto realiza lo siguiente: 
 
 - Ejecuta el código `momios.R`
 
