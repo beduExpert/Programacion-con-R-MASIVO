@@ -29,7 +29,7 @@ Una vez hecho esto, tendremos los dos archivos creados, en el UI (User interface
 ![](imagenes/1.3.png)
 
 
-En la siguiente imagen podemos apreciar el ejemplo indicado anteriormente, ejecuta el ejemplo, intenta mover los parámetros para que observes el resultado tanto dentro del archivo ui.R y de la webApp respectivamente.
+En la siguiente imagen podemos apreciar el ejemplo indicado anteriormente, ejecuta el ejemplo, intenta mover los parámetros para que observes el resultado, tanto dentro del archivo ui.R como en la webApp.
 
 <p align="center">
 <img src="imagenes/1.4.png" width="650" height="450"> 
