@@ -1,7 +1,7 @@
 # Ejemplo 3. Dashboard dinámico
 
 #### Objetivo
-- Crear un dashboard de tipo dinámico utilizando gráficas de tipo histograma además de seleccionar las variables mediante botones.
+- Crear un dashboard de tipo dinámico utilizando gráficas de tipo histograma, además de seleccionar las variables mediante botones.
 
 #### Requisitos
 - Utileria shiny
