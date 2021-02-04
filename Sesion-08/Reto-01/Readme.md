@@ -12,7 +12,7 @@ Basándote en los ejemplos, genera el dashboard con el dataset de `iris` en el q
 
 - El gráfico de dispersión de las variables numéricas
 - La imagen generada por un diagrama de gradiente de la correlación entre las variables del dataset 
-- EL summary del dataset
+- El summary del dataset
 - La tabla del dataset 
 - Un data table del dataset en el que se muestren 10, 20 y 50 entradas por página
 
