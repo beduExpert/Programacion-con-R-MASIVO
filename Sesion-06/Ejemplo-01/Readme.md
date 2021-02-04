@@ -100,14 +100,10 @@ plot(New.series, xlab = "Tiempo", ylab = "Temperatura en °C", main = "Serie de 
 
 #### Descomposición de series
 
-```R
-CBE <- read.csv("cbe.csv", header = TRUE)
-Elec.ts <- ts(CBE[, 3], start = 1958, freq = 12)
-```
-
 Modelo Aditivo
 
 ```R
+# Se debe elegir entre modelo aditivo o modelo multiplicativo cuando sea razonable suponer la descomposición
 Elec.decom.A <- decompose(Elec.ts)
 
 plot(Elec.decom.A, xlab = "Tiempo", 
