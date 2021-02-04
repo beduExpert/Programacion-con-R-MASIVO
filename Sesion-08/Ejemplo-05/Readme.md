@@ -14,7 +14,7 @@ Se comenzará utilizando el código siguiente ahora en un solo archivo `app.R` a
 ```R
 ## app.R ##
 
-## Dash board para el data set 'mtcars'
+## Dashboard para el data set 'mtcars'
 
 library(shiny)
 library(shinydashboard)
