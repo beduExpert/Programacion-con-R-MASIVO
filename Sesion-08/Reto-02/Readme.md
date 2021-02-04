@@ -5,7 +5,7 @@
 
 #### Requisitos
 - Shiny
-- Datasets de airquality
+- Dataset de airquality
 - Haber realizado los ejercicios de la clase
 
 #### Desarrollo
