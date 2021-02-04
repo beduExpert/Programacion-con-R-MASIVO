@@ -4,7 +4,7 @@
 #### OBJETIVO
 
 - Ejecutar el código. 
-- Observar el resultado de la toma de desiciones consecutivas, cuando estas se basan en datos historicos 
+- Observar el resultado de la toma de desiciones consecutivas, cuando estas se basan en datos históricos 
 
 #### REQUISITOS
 
