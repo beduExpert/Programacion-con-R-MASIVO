@@ -13,7 +13,7 @@
 Generar la Shiny webApp y dentro del archivo `ui.R` pegar el siguiente código
 
 ```R
-# Generación de un dashboard de tipo de selección Dinámica
+# Generación de un dashboard de tipo de selección dinámica
 
 library(shiny)
 
@@ -38,7 +38,7 @@ shinyUI(fluidPage(
 ))
 ```
 
-Para el archivo `Server.R` pega el siguiente código, además trata de identificar que hacen cada uno de los comandos que se presentan a continuación:
+Para el archivo `server.R` pega el siguiente código, además trata de identificar que hacen cada uno de los comandos que se presentan a continuación:
 
 ```R 
 # Generación de un dashboard de tipo de selección Dinámica
