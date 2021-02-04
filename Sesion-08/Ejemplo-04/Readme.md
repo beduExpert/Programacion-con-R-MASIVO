@@ -5,9 +5,9 @@
 Desarrollar un dashboard de tipo condicional para la selección de dos tipos de gráficas.
 
 #### Requisitos
-- Libreria Shiny
+- Librería Shiny
 - Manejo de data frames
-- haber realzado los ejemplos anteriores
+- Haber realizado los ejemplos anteriores
 
 #### Desarrollo
 
