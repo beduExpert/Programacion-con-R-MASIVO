@@ -1,6 +1,6 @@
-# Ejemplo 2. Modelos estoc醩ticos b醩icos, modelos estacionarios y predicci髇
+# Ejemplo 2. Modelos estoc谩sticos b谩sicos, modelos estacionarios y predicci贸n
 
-# Ruido Blanco y simulaci髇 en R
+# Ruido Blanco y simulaci贸n en R
 
 set.seed(1)
 w <- rnorm(100)
@@ -9,26 +9,26 @@ title(main = "Ruido Blanco Gaussiano", xlab = "Tiempo")
 
 ###
 
-# Para ilustrar mediante simulaci髇 como las muestras pueden diferir 
+# Para ilustrar mediante simulaci贸n como las muestras pueden diferir 
 # de sus poblaciones subyacentes considere lo siguiente
 
 x <- seq(-3, 3, length = 1000)
 hist(rnorm(100), prob = T, ylab = "", xlab = "", main = "") 
 points(x, dnorm(x), type = "l")
-title(ylab = "Densidad", xlab = "Valores simulados de la distribuci髇 normal estandar",
-      main = "Comparaci髇 de una muestra con su poblaci髇 subyacente")
+title(ylab = "Densidad", xlab = "Valores simulados de la distribuci贸n normal estandar",
+      main = "Comparaci贸n de una muestra con su poblaci贸n subyacente")
 
 ###
 
 set.seed(2)
 acf(rnorm(100), main = "")
-title(main = "Funci髇 de Autocorrelaci髇 Muestral", 
-      sub = "Valores simulados de la distribuci髇 normal estandar")
+title(main = "Funci贸n de Autocorrelaci贸n Muestral", 
+      sub = "Valores simulados de la distribuci贸n normal estandar")
 
 ###
 
               # Caminata Aleatoria
-              # Simulaci髇 en R
+              # Simulaci贸n en R
 
 x <- w <- rnorm(1000)
 for(t in 2:1000) x[t] <- x[t-1] + w[t]
@@ -41,7 +41,7 @@ title(main = "Correlograma para la caminata aleatoria simulada",
 
 ###
 
-        # Modelos Ajustados y gr醘icas de diagn髎tico
+        # Modelos Ajustados y gr谩ficas de diagn贸stico
       # Series de caminatas aleatorias simuladas
 
 # El correlograma de las series de diferencias puede usarse para evaluar si una serie dada
@@ -73,7 +73,7 @@ abline(h = 0)
 
 ###
 
-# Simulaci髇 en R
+# Simulaci贸n en R
 
 # Un proceso AR(1) puede ser simulado en R como sigue:
 
@@ -109,15 +109,15 @@ x.ar$order
 x.ar$ar
 x.ar$ar + c(-2, 2)*sqrt(x.ar$asy.var)
 
-# Serie de temperatura global: Ajuste de un modelo AR
+# Serie de temperaturas globales, expresadas como anomal铆as de las medias mensuales: Ajuste de un modelo AR
 
 Global <- scan("global.txt")
 Global.ts <- ts(Global, st = c(1856, 1), end = c(2005, 12), fr = 12)
 Global.annual <- aggregate(Global.ts, FUN = mean)
-plot(Global.ts, xlab = "Tiempo", ylab = "Temperatura en 掳C", 
+plot(Global.ts, xlab = "Tiempo", ylab = "Temperatura en 脗掳C", 
      main = "Serie de Temperatura Global",
      sub = "Serie mensual: Enero de 1856 a Diciembre de 2005")
-plot(Global.annual, xlab = "Tiempo", ylab = "Temperatura en 掳C", 
+plot(Global.annual, xlab = "Tiempo", ylab = "Temperatura en 脗掳C", 
      main = "Serie de Temperatura Global",
      sub = "Serie anual de temperaturas medias: 1856 a 2005")
 
@@ -135,9 +135,9 @@ title(main = "Correlograma de la serie de residuales",
 
 # Modelos MA(q)
 
-# Ejemplos en R: Correlograma y Simulaci髇
+# Ejemplos en R: Correlograma y Simulaci贸n
 
-# Funci髇 en R para calcular la Funci髇 de Autocorrelaci髇
+# Funci贸n en R para calcular la Funci贸n de Autocorrelaci贸n
 
 rho <- function(k, beta){
   q <- length(beta) - 1
@@ -155,7 +155,7 @@ rho.k <- rep(1, 10)
 for(k in 1:10) rho.k[k] <- rho(k, beta)
 plot(0:10, c(1, rho.k), ylab = expression(rho[k]), xlab = "lag k", type = "h",
      sub = expression(x[t] == w[t] + 0.7*w[t-1] + 0.5*w[t-2] + 0.2*w[t-3]),
-     main = "Funci髇 de autocorrelaci髇 para un proceso MA(3)")
+     main = "Funci贸n de autocorrelaci贸n para un proceso MA(3)")
 abline(0, 0)
 
 # Correlograma para otro proceso MA(3)
@@ -165,12 +165,12 @@ rho.k <- rep(1, 10)
 for(k in 1:10) rho.k[k] <- rho(k, beta)
 plot(0:10, c(1, rho.k), ylab = expression(rho[k]), xlab = "lag k", type = "h",
      sub = expression(x[t] == w[t] - 0.7*w[t-1] + 0.5*w[t-2] - 0.2*w[t-3]),
-     main = "Funci髇 de autocorrelaci髇 para un proceso MA(3)")
+     main = "Funci贸n de autocorrelaci贸n para un proceso MA(3)")
 abline(0, 0)
 
 ####################################################################################################################################################
 
-# Simulaci髇 de un proceso MA(3)
+# Simulaci贸n de un proceso MA(3)
 
 set.seed(1)
 b <- c(0.8, 0.6, 0.4)
@@ -201,7 +201,7 @@ x.ma
 # Modelos ARMA(p, q)
 
 
-# Simulaci髇 y Ajuste
+# Simulaci贸n y Ajuste
 
 set.seed(1)
 x <- arima.sim(n = 10000, list(ar = -0.6, ma = 0.5))
@@ -213,25 +213,25 @@ title(main = "Serie simulada", xlab = "Tiempo",
 
 coef(arima(x, order = c(1, 0, 1)))
 
-#### Predicci髇
+#### Predicci贸n
 
-# Serie de producci髇 de electricidad
+# Serie de producci贸n de electricidad
 
 CBE <- read.csv("cbe.csv", header = TRUE)
 Elec.ts <- ts(CBE[, 3], start = 1958, freq = 12)
 plot(Elec.ts, xlab = "", ylab = "")
-title(main = "Serie de Producci髇 de Electricidad",
+title(main = "Serie de Producci贸n de Electricidad",
       xlab = "Tiempo",
-      ylab = "Producci髇 de electricidad")
+      ylab = "Producci贸n de electricidad")
 
 #
 
 plot(log(Elec.ts), xlab = "", ylab = "")
-title(main = "Serie-log de Producci髇 de Electricidad",
+title(main = "Serie-log de Producci贸n de Electricidad",
       xlab = "Tiempo",
-      ylab = "Log de Producci髇 de electricidad")
+      ylab = "Log de Producci贸n de electricidad")
 
-#
+# El siguiente modelo que se ajustar谩 no ser谩 un buen modelo, porque en los residuales a煤n quedar谩n autocorrelaciones estad铆sticamente diferentes de cero
 
 Time <- 1:length(Elec.ts)
 Imth <- cycle(Elec.ts)
@@ -240,21 +240,21 @@ Elec.lm <- lm(log(Elec.ts) ~ Time + I(Time^2) + factor(Imth))
 #
 
 acf(resid(Elec.lm), main = "")
-title(main = "Correlograma de la serie de residuales del modelo de regresi髇",
-      sub = "Serie de producci髇 de electricidad")
+title(main = "Correlograma de la serie de residuales del modelo de regresi贸n",
+      sub = "Serie de producci贸n de electricidad")
 
 #
 
 plot(resid(Elec.lm), type = "l", main = "", xlab = "", ylab = "")
-title(main = "Serie de residuales del modelo de regresi髇 ajustado",
-      sub = "Serie de producci髇 de electricidad",
+title(main = "Serie de residuales del modelo de regresi贸n ajustado",
+      sub = "Serie de producci贸n de electricidad",
       xlab = "Tiempo",
       ylab = "Residuales")
 
 ###
 
-# C骴igo para encontrar el mejor modelo ARMA(p, q) considerando el AIC 
-# (Akaike Information Criterion)
+# C贸digo para encontrar el mejor modelo ARMA(p, q) considerando el AIC 
+# (Akaike Information Criterion). El ajuste se lleva a cabo para los residuales del ajuste anterior.
 
 best.order <- c(0, 0, 0)
 best.aic <- Inf
@@ -274,7 +274,7 @@ best.order
 
 acf(resid(best.arma), main = "")
 title(main = "Serie de residuales del modelo ARMA(2, 0) ajustado",
-      sub = "Serie de residuales del modelo de regresi髇 ajustado a los datos de electricidad")
+      sub = "Serie de residuales del modelo de regresi贸n ajustado a los datos de electricidad")
 
 ###
 
@@ -288,8 +288,8 @@ elec.pred <- ts(exp(predict.lm + predict.arma$pred), start = 1991, freq = 12)
 
 ts.plot(cbind(Elec.ts, elec.pred), lty = 1:2, 
         col = c("blue", "red"), xlab = "Tiempo", 
-        ylab = "Producci髇 de electricidad",
-        main = "Predicci髇 de los datos de producci髇 de electricidad",
-        sub = "Predicci髇 de 36 meses")
+        ylab = "Producci贸n de electricidad",
+        main = "Predicci贸n de los datos de producci贸n de electricidad",
+        sub = "Predicci贸n de 36 meses")
 
 
