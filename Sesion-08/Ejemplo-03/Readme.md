@@ -4,7 +4,7 @@
 - Crear un dashboard de tipo dinámico utilizando gráficas de tipo histograma, además de seleccionar las variables mediante botones.
 
 #### Requisitos
-- Utileria shiny
+- Utilería shiny
 - Generar un archivo de tipo Shiny webApp
 - Conocimiento de data frames
 
