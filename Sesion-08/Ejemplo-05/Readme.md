@@ -4,7 +4,7 @@
 - Generar un dashboard interactivo que tenga una presentación profesional y que pueda interactuar con varias variables
 
 #### Requisitos
-- Haber realizados los ejercicios anteriores
+- Haber realizado los ejercicios anteriores
 - Tener las librerías `shiny` y `shinydashboard`
 - Analizar el código siguiente
 
