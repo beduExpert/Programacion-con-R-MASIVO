@@ -13,7 +13,7 @@
 
 En el desarrollo de este ejemplo se van a tratar tópicos como: ruido blanco, caminatas aleatorias, operadores de rezago y diferencia. 
 
-Ruido Blanco y simulación en R
+#### Ruido Blanco y simulación en R
 
 ```R
 set.seed(1)
@@ -39,7 +39,7 @@ title(main = "Función de Autocorrelación Muestral",
       sub = "Valores simulados de la distribución normal estandar")
 ```
 
-Caminata aleatoria y simulación en R
+#### Caminata aleatoria y simulación en R
 
 ```R
 x <- w <- rnorm(1000)
@@ -120,7 +120,7 @@ x.ar$ar
 x.ar$ar + c(-2, 2)*sqrt(x.ar$asy.var)
 ```
 
-Serie de temperaturas globales, expresadas como anomalías de las medias mensuales: Ajuste de un modelo AR
+#### Serie de temperaturas globales, expresadas como anomalías de las medias mensuales: Ajuste de un modelo AR
 
 ```R
 Global <- scan("global.txt")
@@ -249,6 +249,8 @@ title(main = "Serie-log de Producción de Electricidad",
       ylab = "Log de Producción de electricidad")
 ```
 
+#### El siguiente modelo que se ajustará no será un buen modelo, porque en los residuales aún quedarán autocorrelaciones estadísticamente diferentes de cero
+
 ```R
 Time <- 1:length(Elec.ts)
 Imth <- cycle(Elec.ts)
@@ -269,7 +271,7 @@ title(main = "Serie de residuales del modelo de regresión ajustado",
       ylab = "Residuales")
 ```
 
-Código para encontrar el mejor modelo ARMA(p, q) considerando el AIC (Akaike Information Criterion)
+Código para encontrar el mejor modelo ARMA(p, q) considerando el AIC (Akaike Information Criterion). El ajuste se realiza para la serie de tiempo de los residuales del ajuste anterior.
 
 ```R
 best.order <- c(0, 0, 0)
