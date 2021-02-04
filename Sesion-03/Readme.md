@@ -19,6 +19,9 @@ Conocer mejor el conjunto de datos con el que se esté trabajando,
 - [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-02) Estadísticos de la NBA
 - [Ejemplo 4](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-04) Boxplots y outliers
 - [Ejemplo 5](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-05) Gráficos de líneas o barras
+
+#### Opcionales (en la sesión 6 se tocará el tema de series de tiempo)
+
 - [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Ejemplo-06) Series de tiempo y descomposición
 - [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-03/Reto-03) Series de tiempo y descomposición
 
