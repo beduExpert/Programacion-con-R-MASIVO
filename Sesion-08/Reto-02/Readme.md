@@ -1,11 +1,11 @@
-# Reto 2. Dashboard Dinámico
+# Reto 2. Dashboard dinámico
 
 #### Objetivo
-- Generar un dashboard dinámico que muestre los histogramas para ciertas variables seleccionadas de un datased
+- Generar un dashboard dinámico que muestre los histogramas para ciertas variables seleccionadas de un dataset
 
 #### Requisitos
 - Shiny
-- datasets de airquality
+- Datasets de airquality
 - Haber realizado los ejercicios de la clase
 
 #### Desarrollo
