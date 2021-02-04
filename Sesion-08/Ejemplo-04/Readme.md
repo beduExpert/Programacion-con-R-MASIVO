@@ -48,7 +48,7 @@ shinyUI(fluidPage(
 )
 ```
 
-Dentro del archivo `Server.R` pegar el siguiente código y analizar que función desempeñan los inputs en este caso
+Dentro del archivo `server.R` pegar el siguiente código y analizar que función desempeñan los inputs en este caso
 
 ```R
 #Condicional
