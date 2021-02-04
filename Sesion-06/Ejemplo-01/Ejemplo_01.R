@@ -1,11 +1,11 @@
-#### T閏nicas descriptivas: gr醘icas, tendencias y variaci髇 estacional
+#### T茅cnicas descriptivas: gr谩ficas, tendencias y variaci贸n estacional
 
 library(TSA)
 
 data(oilfilters); plot(oilfilters, type = "o", ylab = "Ventas", xlab = "Tiempo", main = "Ventas Mesuales ")
 plot(oilfilters, type = "l", ylab = "Ventas", xlab = "Tiempo",
                  main = "Ventas Mensuales de Filtro de Aceite",
-                 sub = "S韒bolos Especiales")
+                 sub = "S铆mbolos Especiales")
 points(y = oilfilters, x = time(oilfilters),
 pch = as.vector(season(oilfilters)))
 
@@ -22,29 +22,29 @@ start(AP); end(AP); frequency(AP)
 summary(AP)
 
 plot(AP, ylab = "Pasajeros (1000's)", xlab = "Tiempo", 
-     main = "Reserva de pasajeros a閞eos internacionales", 
+     main = "Reserva de pasajeros a茅reos internacionales", 
      sub = "Estados Unidos en el periodo 1949-1960")
 
 ################################################
 
 layout(1:2)
 plot(aggregate(AP), xlab = "Tiempo",
-     main = "Reserva de pasajeros a閞eos internacionales", 
+     main = "Reserva de pasajeros a茅reos internacionales", 
      sub = "Estados Unidos en el periodo 1949-1960")
 
 boxplot(AP ~ cycle(AP),
         xlab = "Boxplot de valores estacionales",
         sub = "Estados Unidos en el periodo 1949-1960",
-        main = "Reserva de pasajeros a閞eos internacionales")
+        main = "Reserva de pasajeros a茅reos internacionales")
 dev.off()
 
 ################################################
 
 # https://github.com/AtefOuni/ts/tree/master/Data
 
-# Series de Tiempo M鷏tiple
+# Series de Tiempo M煤ltiple
 
-# Serie de producci髇 de electricidad, cerveza y chocolate
+# Serie de producci贸n de electricidad, cerveza y chocolate
 
 CBE <- read.csv("cbe.csv", header = TRUE)
 CBE[1:4,]
@@ -54,46 +54,40 @@ Elec.ts <- ts(CBE[, 3], start = 1958, freq = 12)
 Beer.ts <- ts(CBE[, 2], start = 1958, freq = 12)
 Choc.ts <- ts(CBE[, 1], start = 1958, freq = 12)
 
-Electricidad <- Elec.ts
-Cerveza <- Beer.ts
-Chocolate <- Choc.ts
-
-plot(cbind(Electricidad, Cerveza, Chocolate), 
-     main = "Producci髇 de Chocolate, Cerveza y Electricidad", 
+plot(cbind(Elec.ts, Beer.ts, Choc.ts), 
+     main = "Producci贸n de Chocolate, Cerveza y Electricidad", 
      xlab = "Tiempo",
      sub = "Enero de 1958 - Diciembre de 1990")
 
 ################################################
 
-# Serie de Temperatura Global
+# Serie de temperaturas globales, expresadas como anomal铆as de las medias mensuales
 
 Global <- scan("global.txt")
 Global.ts <- ts(Global, st = c(1856, 1), end = c(2005, 12), fr = 12)
 Global.annual <- aggregate(Global.ts, FUN = mean)
-plot(Global.ts, xlab = "Tiempo", ylab = "Temperatura en 掳C", main = "Serie de Temperatura Global",
+plot(Global.ts, xlab = "Tiempo", ylab = "Temperatura en 脗掳C", main = "Serie de Temperatura Global",
      sub = "Serie mensual: Enero de 1856 a Diciembre de 2005")
-plot(Global.annual, xlab = "Tiempo", ylab = "Temperatura en 掳C", main = "Serie de Temperatura Global",
+plot(Global.annual, xlab = "Tiempo", ylab = "Temperatura en 脗掳C", main = "Serie de Temperatura Global",
      sub = "Serie anual de temperaturas medias: 1856 a 2005")
 
 ################################################
 
 New.series <- window(Global.ts, start = c(1970, 1), end = c(2005, 12)) 
 New.time <- time(New.series)
-plot(New.series, xlab = "Tiempo", ylab = "Temperatura en 掳C", main = "Serie de Temperatura Global",
+plot(New.series, xlab = "Tiempo", ylab = "Temperatura en 脗掳C", main = "Serie de Temperatura Global",
      sub = "Serie mensual: Enero de 1970 a Diciembre de 2005"); abline(reg = lm(New.series ~ New.time))
 
 
-#### Descomposici髇 de series
-
-CBE <- read.csv("cbe.csv", header = TRUE)
-Elec.ts <- ts(CBE[, 3], start = 1958, freq = 12)
+#### Descomposici贸n de series
 
 # Modelo Aditivo
 
+# Se debe elegir entre el modelo aditivo o el modelo multiplicativo cuando sea razonable suponer la descomposici贸n
 Elec.decom.A <- decompose(Elec.ts)
 
 plot(Elec.decom.A, xlab = "Tiempo", 
-     sub = "Descomposici髇 de los datos de producci髇 de electricidad")
+     sub = "Descomposici贸n de los datos de producci贸n de electricidad")
 
 # Componentes
 
@@ -102,8 +96,8 @@ Estacionalidad <- Elec.decom.A$seasonal
 Aleatorio <- Elec.decom.A$random
 
 ts.plot(cbind(Tendencia, Tendencia + Estacionalidad), 
-        xlab = "Tiempo", main = "Datos de Producci髇 de Electricidad", 
-        ylab = "Producci髇 de electricidad", lty = 1:2,
+        xlab = "Tiempo", main = "Datos de Producci贸n de Electricidad", 
+        ylab = "Producci贸n de electricidad", lty = 1:2,
         sub = "Tendencia con efectos estacionales aditivos sobrepuestos")
 
 Tendencia[20] + Estacionalidad[20] + Aleatorio[20]
@@ -116,7 +110,7 @@ Elec.ts[20]
 Elec.decom.M <- decompose(Elec.ts, type = "mult")
 
 plot(Elec.decom.M, xlab = "Tiempo", 
-     sub = "Descomposici髇 de los datos de producci髇 de electricidad")
+     sub = "Descomposici贸n de los datos de producci贸n de electricidad")
 
 # Componentes
 
@@ -124,8 +118,8 @@ Trend <- Elec.decom.M$trend
 Seasonal <- Elec.decom.M$seasonal
 Random <- Elec.decom.M$random
 
-ts.plot(cbind(Trend, Trend*Seasonal), xlab = "Tiempo", main = "Datos de Producci髇 de Electricidad", 
-        ylab = "Producci髇 de electricidad", lty = 1:2,
+ts.plot(cbind(Trend, Trend*Seasonal), xlab = "Tiempo", main = "Datos de Producci贸n de Electricidad", 
+        ylab = "Producci贸n de electricidad", lty = 1:2,
         sub = "Tendencia con efectos estacionales multiplicativos sobrepuestos")
 
 Trend[7]*Seasonal[7]*Random[7]
