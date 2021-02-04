@@ -4,7 +4,7 @@
 Realizar la publicación de tu dashboard dentro de un servidor ya sea de Shiny o de RStudio, para poder compartirlo a traves de internet y que los que tengan el link puedan hacer uso del dashboard
 
 #### Requisitos
-- Haber reaizado los ejemplos de la sesión
+- Haber realizado los ejemplos de la sesión
 - Tener un dashboard
 - Conexión a internet
 
