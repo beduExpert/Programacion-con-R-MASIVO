@@ -1,6 +1,6 @@
 
 
-## Postwork. Alojar el fichero a un local host de MongoDB 
+## Postwork. Alojar un fichero a un local host de MongoDB 
 
 ### OBJETIVO
 
