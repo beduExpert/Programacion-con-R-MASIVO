@@ -1,7 +1,7 @@
 # Ejemplo 5. Dashboard interactivo ejecutivo
 
 #### Objetivo
-- Generar un dashboard interactivo que tenga una presentación profesional y que pueda interactur con varias variables
+- Generar un dashboard interactivo que tenga una presentación profesional y que pueda interactuar con varias variables
 
 #### Requisitos
 - haber realizados los ejercicios anteriores
