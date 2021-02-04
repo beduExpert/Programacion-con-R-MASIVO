@@ -221,9 +221,9 @@ for(j in 1:length(phs)){
 
 g <- data.frame(Num_Ap = 1:length(g), Capital = g)
 p <- ggplot(g, aes(x=Num_Ap, y=Capital)) + geom_line( color="purple") + geom_point() +
-  labs(x = "Número de Apuesta", 
+  labs(x = "Número de juego", 
        y = "Capital",
-       title = "Realizando una secuencia de apuestas") +
+       title = "Realizando una secuencia de juegos") +
   theme(plot.title = element_text(size=12))  +
   theme(axis.text.x = element_text(face = "bold", color="blue" , size = 10, angle = 25, hjust = 1),
         axis.text.y = element_text(face = "bold", color="blue" , size = 10, angle = 25, hjust = 1))  # color, ángulo y estilo de las abcisas y ordenadas 
@@ -249,9 +249,9 @@ for(j in 1:length(phs)){
 
 g <- data.frame(Num_Ap = 1:length(g), Capital = g)
 p <- ggplot(g, aes(x=Num_Ap, y=Capital)) + geom_line( color="purple") + geom_point() +
-  labs(x = "Número de Apuesta", 
+  labs(x = "Número de juego", 
        y = "Capital",
-       title = "Realizando una secuencia de apuestas") +
+       title = "Realizando una secuencia de juegos") +
   theme(plot.title = element_text(size=12))  +
   theme(axis.text.x = element_text(face = "bold", color="blue" , size = 10, angle = 25, hjust = 1),
         axis.text.y = element_text(face = "bold", color="blue" , size = 10, angle = 25, hjust = 1))  # color, ángulo y estilo de las abcisas y ordenadas 
