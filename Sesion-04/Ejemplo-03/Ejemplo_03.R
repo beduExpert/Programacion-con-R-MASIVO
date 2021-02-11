@@ -1,5 +1,7 @@
 # Ejemplo 3. Algunos estimadores puntuales insesgados comunes
 
+# Nota: este ejemplo es opcional por su similaridad con el ejemplo sobre el teorema central del límite
+
 # Cargamos el paquete ggplot2 para hacer algunas gráficas
 
 library(ggplot2)
