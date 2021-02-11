@@ -109,3 +109,5 @@ Finalmente, observamos algunas filas de nuestro último data frame
 head(mex); tail(mex)
 write.csv(mex, "C19Mexico.csv", row.names = FALSE)
 ```
+
+#### *Nota: en el ejemplo 5 de la sesión 3 se hará uso del archivo creado `C19Mexico.csv`*
