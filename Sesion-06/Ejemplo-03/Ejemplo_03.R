@@ -1,36 +1,36 @@
-# Ejemplo 3. Modelos no estacionarios y predicci髇
+# Ejemplo 3. Modelos no estacionarios y predicci贸n
 
 # https://github.com/AtefOuni/ts/tree/master/Data
     
-# Serie de Producci髇 de Electricidad de Australia
+# Serie de Producci贸n de Electricidad de Australia
 
 CBE <- read.csv("cbe.csv", header = TRUE)
 Elec.ts <- ts(CBE[, 3], start = 1958, freq = 12)
 plot(Elec.ts, xlab = "", ylab = "")
-title(main = "Serie de Producci髇 de Electricidad Australiana",
-      ylab = "Producci髇 de electricidad (GWh)",
+title(main = "Serie de Producci贸n de Electricidad Australiana",
+      ylab = "Producci贸n de electricidad (GWh)",
       xlab = "Tiempo")
 
 ###
 
 plot(diff(Elec.ts), xlab = "", ylab = "")
-title(main = "Serie Diferenciada de Producci髇 de Electricidad Australiana",
+title(main = "Serie Diferenciada de Producci贸n de Electricidad Australiana",
       xlab = "Tiempo", ylab = "Dif Serie",
-      sub = "Gr醘ica de la serie diferenciada de primer 髍den")
+      sub = "Gr谩fica de la serie diferenciada de primer 贸rden")
 
 ###
 
 plot(diff(log(Elec.ts)), xlab = "", ylab = "")
-title(main = "Serie de log dif de Producci髇 de Electricidad Australiana",
+title(main = "Serie de log dif de Producci贸n de Electricidad Australiana",
       xlab = "Tiempo", ylab = "Dif log-Serie",
-      sub = "Gr醘ica de la serie log-transformada diferenciada de primer 髍den")
+      sub = "Gr谩fica de la serie log-transformada diferenciada de primer 贸rden")
 
 ####################################################################################################################################################
 
-                      # Simulaci髇 y ajuste
+                      # Simulaci贸n y ajuste
 
-# A continuaci髇, simulamos datos de un modelo ARIMA(1, 1, 1) y luego ajustamos un modelo a la serie simulada 
-# para recuperar los par醡etros estimados.
+# A continuaci贸n, simulamos datos de un modelo ARIMA(1, 1, 1) y luego ajustamos un modelo a la serie simulada 
+# para recuperar los par谩metros estimados.
 
 set.seed(1)
 x <- w <- rnorm(1000)
@@ -50,7 +50,7 @@ arima(x, order = c(1, 1, 1))
 
 ###
 
-      # Simulaci髇 con la funci髇 arima.sim
+      # Simulaci贸n con la funci贸n arima.sim
 
 x <- arima.sim(model = list(order = c(1, 1, 1), ar = 0.5, ma = 0.3), n = 1000)
 
@@ -60,13 +60,12 @@ arima(x, order = c(1, 1, 1))
 
 ####################################################################################################################################################
 
-    # Serie de producci髇 de cerveza
+    # Serie de producci贸n de cerveza
 
-CBE <- read.csv("cbe.csv", header = TRUE)
 Beer.ts <- ts(CBE[, 2], start = 1958, freq = 12)
 plot(Beer.ts, xlab = "", ylab = "")
-title(main = "Serie de Producci髇 de Cerveza en Australia",
-      ylab = "Producci髇 de Cerveza (Megalitros)",
+title(main = "Serie de Producci贸n de Cerveza en Australia",
+      ylab = "Producci贸n de Cerveza (Megalitros)",
       xlab = "Mes")
 
 ###
@@ -88,20 +87,18 @@ sum(Beer.1991$pred)
 #### Modelos Arima estacionales
 
 # Procedimiento de ajuste
-# Serie de Producci髇 de Electricidad de Australia
+# Serie de Producci贸n de Electricidad de Australia
 
-CBE <- read.csv("cbe.csv", header = TRUE)
-Elec.ts <- ts(CBE[, 3], start = 1958, freq = 12)
 plot(Elec.ts, xlab = "", ylab = "")
-title(main = "Serie de Producci髇 de Electricidad Australiana",
-      ylab = "Producci髇 de electricidad (GWh)",
+title(main = "Serie de Producci贸n de Electricidad Australiana",
+      ylab = "Producci贸n de electricidad (GWh)",
       xlab = "Tiempo")
 
 ###
 
 plot(log(Elec.ts), xlab = "", ylab = "")
-title(main = "Log de Serie de Producci髇 de Electricidad Australiana",
-      ylab = "Log de Producci髇 de electricidad (GWh)",
+title(main = "Log de Serie de Producci贸n de Electricidad Australiana",
+      ylab = "Log de Producci贸n de electricidad (GWh)",
       xlab = "Tiempo")
 
 ###
@@ -118,7 +115,7 @@ AIC(Elec.MA)
 
 ###
 
-# Funci髇 para buscar un buen modelo
+# Funci贸n para buscar un "buen" modelo (no basarse 煤nicamente en los resultados de aplicar la funci贸n)
 
 get.best.arima <- function(x.ts, maxord = c(1, 1, 1, 1, 1, 1)){
   best.aic <- 1e8
@@ -139,14 +136,14 @@ get.best.arima <- function(x.ts, maxord = c(1, 1, 1, 1, 1, 1)){
   list(best.aic, best.fit, best.model)
 }
 
-# Nuevo ajuste a los datos de la serie transformada de producci髇 
+# Nuevo ajuste a los datos de la serie transformada de producci贸n 
 # de electricidad
 
 best.arima.elec <- get.best.arima(log(Elec.ts),
                                   maxord = c(2, 2, 2, 2, 2, 2))
 
 best.fit.elec <- best.arima.elec[[2]]  # Modelo
-best.arima.elec[[3]] # Tipo de modelo (髍denes)
+best.arima.elec[[3]] # Tipo de modelo (贸rdenes)
 best.fit.elec
 best.arima.elec[[1]] # AIC
 ###
@@ -157,14 +154,14 @@ acf(resid(best.fit.elec), main = "")
 title(main = "Correlograma de los residuales del ajuste")
 
 ###
-# Predicci髇
+# Predicci贸n
 
 pr <- predict(best.fit.elec, 12)$pred 
 ts.plot(cbind(window(Elec.ts, start = 1981),
               exp(pr)), col = c("blue", "red"), xlab = "")
-title(main = "Predicci髇 para la serie de producci髇 de electricidad",
+title(main = "Predicci贸n para la serie de producci贸n de electricidad",
       xlab = "Mes",
-      ylab = "Producci髇 de electricidad (GWh)")
+      ylab = "Producci贸n de electricidad (GWh)")
 
 
 
