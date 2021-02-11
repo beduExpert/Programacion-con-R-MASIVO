@@ -17,7 +17,7 @@
 
 Utilizando el manejador de BDD _Mongodb Compass_ (previamente instalado), deberás de realizar las siguientes acciones: 
 
-- Alojar el fichero  `data.csv` en una base de datos llamada `match_games`, nombrando al `collection` como `match`
+- Alojar el fichero  `match.data.csv` en una base de datos llamada `match_games`, nombrando al `collection` como `match`
 
 - Una vez hecho esto, realizar un `count` para conocer el número de registros que se tiene en la base
 
