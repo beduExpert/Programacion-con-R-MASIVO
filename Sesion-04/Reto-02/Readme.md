@@ -10,6 +10,8 @@
 
 #### Desarrollo
 
+#### *Nota: este reto es opcional*
+
 1. Genere 1500 muestras de tamaño 67 de la distribución exponencial con parámetro 5
 2. Obtenga las 1500 medias correspondientes a cada una de las muestras
 3. Realice el histograma de frecuencias de las 1500 medias
