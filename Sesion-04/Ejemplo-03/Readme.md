@@ -11,6 +11,8 @@
 
 #### Desarrollo
 
+#### *Nota: este ejemplo es opcional por su similaridad con el ejemplo sobre el teorema central del límite*
+
 Cargamos el paquete `ggplot2` para hacer algunas gráficas
 
 ```R
