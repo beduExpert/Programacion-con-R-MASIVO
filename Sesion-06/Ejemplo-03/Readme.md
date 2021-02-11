@@ -73,7 +73,6 @@ arima(x, order = c(1, 1, 1))
 Serie de producción de cerveza
 
 ```R
-CBE <- read.csv("cbe.csv", header = TRUE)
 Beer.ts <- ts(CBE[, 2], start = 1958, freq = 12)
 plot(Beer.ts, xlab = "", ylab = "")
 title(main = "Serie de Producción de Cerveza en Australia",
@@ -103,8 +102,6 @@ Procedimiento de ajuste
 Serie de producción de electricidad de Australia
 
 ```R
-CBE <- read.csv("cbe.csv", header = TRUE)
-Elec.ts <- ts(CBE[, 3], start = 1958, freq = 12)
 plot(Elec.ts, xlab = "", ylab = "")
 title(main = "Serie de Producción de Electricidad Australiana",
       ylab = "Producción de electricidad (GWh)",
@@ -130,7 +127,7 @@ AIC(Elec.AR)
 AIC(Elec.MA)
 ```
 
-Función para buscar un buen modelo
+Función para buscar un "buen" modelo (No basarse únicamente en los resultados de aplicar la función)
 
 ```R
 get.best.arima <- function(x.ts, maxord = c(1, 1, 1, 1, 1, 1)){
