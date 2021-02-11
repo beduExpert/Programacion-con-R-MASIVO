@@ -11,6 +11,8 @@
 
 #### Desarrollo
 
+#### *Nota: con cubrir un tipo de contraste es suficiente, ya que las ideas son similares en los diferentes tipos de contrastes de hipótesis*
+
 #### Contrastes comunes con muestras grandes
 
 #### Contraste de cola superior
