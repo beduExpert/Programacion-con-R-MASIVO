@@ -11,7 +11,7 @@
 
 #### Desarrollo
 
-Supongamos que queremos emprender un negocio o que se nos colicita un estudio en en cual se requiere predecir el precio de cena (platillo), para poder estar dentro de los rangos de precios del mercado y que el restaurante sea rentable. 
+Supongamos que queremos emprender un negocio o que se nos solicita un estudio en en cual se requiere predecir el precio de cena (platillo), para poder estar dentro de los rangos de precios del mercado y que el restaurante sea rentable. 
 
 Entonces primero vamos a analizar los datos de encuestas de clientes de 168 restaurantes Italianos en el área deseada que están disponibles, los cuales tienen las siguientes variables de estudio:
 
