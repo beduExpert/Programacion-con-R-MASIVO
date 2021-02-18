@@ -3,7 +3,7 @@
 #### Objetivo
 
 - Aprender a obtener probabilidades, cuantiles y muestras aleatorias relacionadas con las distribuciones binomial, normal y t de Student
-- Intepretar las probabilidades cuando se condieran las gráficas de las funciones de probabilidad y de densidad
+- Intepretar las probabilidades cuando se consideran las gráficas de las funciones de probabilidad y de densidad
 
 #### Requisitos
 
