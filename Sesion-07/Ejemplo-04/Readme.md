@@ -35,7 +35,7 @@ Finalmente ya que pudimos acceder al contenido del Json, también podemos realiz
 sqrt(JsonData$Mobile)
 ```
 
-Para entrar a las demás variables recuerda que puedas usar el operador de `$`, es decir, `JsonData$`
+Para entrar a las demás variables recuerda que puedes usar el operador de `$`, es decir, `JsonData$`
 
 
 ### XML
