@@ -29,7 +29,7 @@ library(DBI)
 library(RMySQL)
 ```
 
-Una vez que se tengan las librerías necesarias se procede a la lectura (podría ser que necesites otras, si te las solicita instalalas y cargalas), de la base de datos de Shiny la cual es un demo y nos permite interactuar con este tipo de objetos. El comando `dbConnect` es el indicado para realizar la lectura, los demás parámetros son los que nos dan acceso a la BDD.
+Una vez que se tengan las librerías necesarias se procede a la lectura (podría ser que necesites otras, si te las solicita instalalas y cargalas) de la base de datos de Shiny, la cual es un demo y nos permite interactuar con este tipo de objetos. El comando `dbConnect` es el indicado para realizar la lectura, los demás parámetros son los que nos dan acceso a la BDD.
 
 ```R
 MyDataBase <- dbConnect(
