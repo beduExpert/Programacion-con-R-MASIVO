@@ -53,7 +53,7 @@ link <- "http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/xml/cd_catalog.xm
 xmlfile <- xmlTreeParse(link)
 ```
 
-Ahora ya podemos ver las propiedades del objetvo `xmlfile`
+Ahora ya podemos ver las propiedades del objeto `xmlfile`
 
 ```R
 summary(xmlfile)
