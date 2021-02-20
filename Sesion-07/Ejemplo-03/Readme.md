@@ -15,9 +15,9 @@ Ahora utilizaremos otra opción para realizar queries a una BDD con la ayuda de 
 Comenzamos instalando las paqueterías necesarias y cargándolas a R
 ```R
 install.packages("pool")
-install.packages("dbplyr")
+install.packages("dplyr")
 
-library(dbplyr)
+library(dplyr)
 library(pool)
 ```
 Se realiza la lectura de la BDD con el comando `dbPool`, los demás parámetros se siguen utilizando igual que el ejemplo anterior  
