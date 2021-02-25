@@ -63,6 +63,8 @@ ggplot(Default[-train, ],
 
 # summary(tune.rad$best.model)
 
+# A continuación solo usamos los valores de cost y gamma que producen el menor error de prueba estimado, considerando los conjuntos de valores en el código anterior
+
 best <- svm(default~.,  data = Default[train,],
             kernel = "radial",
             cost = 100,
