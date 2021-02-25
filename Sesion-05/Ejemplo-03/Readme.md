@@ -57,7 +57,7 @@ ggplot(Default[-train, ],
   theme_light() + ggtitle("Conjunto de prueba")
 ```
 
-4. Ahora utilicemos la función tune junto con la función svm para seleccionar el mejor modelo de un conjunto de modelos, los modelos considerados serán aquellos obtenidos al variar los valores de los parámetros cost y gamma (usaremos un kernel radial). __Nota: se recomienda mucho correr el código que combina la función `tune` y la función `svm` antes de la sesión del work, esto porque se requiere mucho tiempo para que se obtengan los resultados__
+4. Ahora utilicemos la función tune junto con la función svm para seleccionar el mejor modelo de un conjunto de modelos, los modelos considerados serán aquellos obtenidos al variar los valores de los parámetros cost y gamma (usaremos un kernel radial). __Nota: se recomienda mucho correr el código que combina la función `tune` y la función `svm` antes de la sesión del work, esto porque se requiere "mucho" tiempo para que se obtengan los resultados__
 
 ```R
 # Ahora utilizamos la función `tune` junto con la función `svm` para 
@@ -81,6 +81,8 @@ ggplot(Default[-train, ],
 # Aquí un resumen del modelo seleccionado
 
 # summary(tune.rad$best.model)
+
+# A continuación solo usamos los valores de cost y gamma que producen el menor error de prueba estimado, considerando los conjuntos de valores en el código anterior
 
 best <- svm(default~.,  data = Default[train,],
             kernel = "radial",
