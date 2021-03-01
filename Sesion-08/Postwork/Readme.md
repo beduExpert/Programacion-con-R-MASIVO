@@ -31,7 +31,8 @@ Para este postwork genera un dashboard en un solo archivo `app.R`, para esto rea
 - Por último en otra pestaña agrega las imágenes de las gráficas de los factores de ganancia mínimo y máximo
 
 Nota: recuerda que si tienes problemas con el codificado guarda tu archivo `app.R` con la codificación `UTF-8`
-    
+
+__Notas para los datos de soccer:__ https://www.football-data.co.uk/notes.txt
 
 
 
