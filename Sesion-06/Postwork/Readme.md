@@ -21,3 +21,4 @@ Importa el conjunto de datos match.data.csv a `R` y realiza lo siguiente:
 
 4. Grafica la serie de tiempo.
 
+__Notas para los datos de soccer:__ https://www.football-data.co.uk/notes.txt
