@@ -25,3 +25,4 @@ Utilizando el manejador de BDD _Mongodb Compass_ (previamente instalado), deber�
 
 - Por último, no olvides cerrar la conexión con la BDD
  
+__Notas para los datos de soccer:__ https://www.football-data.co.uk/notes.txt
