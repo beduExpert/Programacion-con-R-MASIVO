@@ -29,3 +29,5 @@ Ahora graficaremos probabilidades (estimadas) marginales y conjuntas para el nú
 - Un gráfico de barras para las probabilidades marginales estimadas del número de goles que anota el equipo de casa
 - Un gráfico de barras para las probabilidades marginales estimadas del número de goles que anota el equipo visitante.
 - Un HeatMap para las probabilidades conjuntas estimadas de los números de goles que anotan el equipo de casa y el equipo visitante en un partido.
+
+__Notas para los datos de soccer:__ https://www.football-data.co.uk/notes.txt
