@@ -17,7 +17,8 @@ data <- read.csv("../Sesion-03/Data/boxp.csv")
 head(data)
 names(data)
 ```
-### modificando una columna para ocultar los datos reales en caso de compartirlos
+
+modificando una columna para ocultar los datos reales en caso de compartirlos
 
 ```R
 data <- mutate(data2, Mediciones = Mediciones*1.23) # se multilica por un factor la columna
