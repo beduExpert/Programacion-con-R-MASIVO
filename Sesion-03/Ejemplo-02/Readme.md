@@ -17,6 +17,12 @@ data <- read.csv("../Sesion-03/Data/boxp.csv")
 head(data)
 names(data)
 ```
+# modificando una columna para "disfrazarla"
+data <- mutate(data2, Mediciones = Mediciones*1.23)
+head(data)
+
+data3 <- mutate(data, Mediciones = Mediciones/1.23)
+head(data3)
 
 Utilizando la función `hist`
 
