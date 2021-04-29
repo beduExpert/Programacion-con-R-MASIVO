@@ -1,5 +1,5 @@
 
-#   EJEMPLO 1. Tipos de datos y vectores
+#   Ejemplo 1- Tipos de datos y vectores
 
 # Objetivo
 - Poder determinar el tipo de variables y objetos que se utilizan
