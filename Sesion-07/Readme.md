@@ -1,5 +1,10 @@
 # Sesión 7: RStudio Cloud - Github, conexiones con BDs y lectura de datos externos
 
+## :dart: Objetivos
+Utilizar RStudio desde la nube y realizar una vinculación con el repositorio de GitHub
+para generar conexiones con BDs y vincular RStudio Cloud con Github.
+
+
 ## 🤓 ¿Que aprenderán? 
 
 Durante el transcurso de esta sesión serás capaz de desarrollar las siguientes capacidades de R 
