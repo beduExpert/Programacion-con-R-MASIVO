@@ -1,4 +1,4 @@
-# EJEMPLO 5. Funciones `apply`, `lapply` y `do.call`
+# Ejemplo 5. Funciones `apply`, `lapply` y `do.call`
 
 #### Objetivo
 
