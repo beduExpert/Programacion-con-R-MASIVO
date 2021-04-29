@@ -4,7 +4,7 @@
 
 Conocer las nociones básicas para poder manipular data sets, poder realizar lectura de datos y posteriormente realizar análisis exploratorios.
 
-## ¿Que aprenderán? 
+## 🤓 ¿Que aprenderán? 
 
 Durante el transcurso de esta sesión serás capaz de desarrollar las siguientes capacidades de R 
 
