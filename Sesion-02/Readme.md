@@ -4,7 +4,7 @@
 
 Se estudian conceptos básicos de estadística para contextualizar al alumno y sentar las bases de la estructura del curso. Se proporcionan algunas herramientas básicas y muy útiles en la práctica para que el alumno pueda importar datos a `R`, con estos datos en `R`, podrá filtrar filas, seleccionar variables, transformar variables y en general manipular los datos para llevarlos a una forma deseada.
 
-## ¿Que aprenderán? 
+## 🤓 ¿Que aprenderán? 
 
 En esta sesión estudiaremos temas relacionados con los siguientes puntos
 
