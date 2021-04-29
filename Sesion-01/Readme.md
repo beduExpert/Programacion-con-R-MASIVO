@@ -27,7 +27,7 @@ Durante el transcurso de esta sesión serás capaz de desarrollar las siguientes
     - [Reto 2](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-02) Operaciones con data frames
 - [Ejemplo 6](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Ejemplo-06) Loops y pseudocódigo: for, if-else
     - [Reto 3](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Reto-03) Loops
-- - [Postwork](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Postwork)
+- [Postwork](https://github.com/beduExpert/Programacion-con-R-Santander/tree/master/Sesion-01/Postwork)
 
 
 
