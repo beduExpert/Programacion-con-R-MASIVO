@@ -1,4 +1,4 @@
-# EJEMPLO 4. Funciones `cbind`, `rbind` (manipulación de data frames)
+# Ejemplo 4- Funciones `cbind`, `rbind` (manipulación de data frames)
 
 #### Objetivo
 
