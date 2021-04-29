@@ -1,5 +1,9 @@
 # Sesión 8: Dashboards con Shiny - Entorno GUI
 
+## :dart: Objetivos
+Generar dashboards que muestren información de análisis, ya sea en forma de tablas y gráficas mediante la librería de Shiny
+
+
 ## 🤓 ¿Para qué aprenderán?
 
 Durante el transcurso de esta sesión serás capaz de desarrollar las siguientes capacidades de R 
