@@ -1,4 +1,4 @@
-#      EJEMPLO 2. Matrices
+#      Ejemplo 2- Matrices
 
 # Objetivo
 
