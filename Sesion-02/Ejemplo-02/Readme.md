@@ -1,4 +1,4 @@
-# EJEMPLO 2. Características de los objetos (`str`, `summary`, `head` y `View`) y funciones
+# Ejemplo 2. Características de los objetos (`str`, `summary`, `head` y `View`) y funciones
 
 #### Objetivo
 
