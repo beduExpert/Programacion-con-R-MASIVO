@@ -1,4 +1,4 @@
-# EJEMPLO 3. Paquete dplyr y aplicaciones
+# Ejemplo 3. Paquete dplyr y aplicaciones
 
 #### Objetivo
 
