@@ -8,7 +8,7 @@
 #### Requisitos
 
 - Tener R y RStudio instalado
-- Haber leido el Prework
+- Haber leído el Prework
 
 #### Desarrollo
 
